@@ -4,37 +4,34 @@
 var KTWidgets = function () {
     // Private properties
 
-    var monto = document.querySelectorAll("[id='monto']");
+    var recd1 = document.getElementById('recd'); 
+    var disp1 = document.getElementById('disp'); 
+    var plat1 = document.getElementById('plat'); 
+    var acc1 = document.getElementById('acc'); 
+    var per1 = document.getElementById('per'); 
+    var lic1 = document.getElementById('lic'); 
+    var form1 = document.getElementById('form'); 
+    var leg1 = document.getElementById('leg'); 
+    var gob1 = document.getElementById('gob'); 
+
+    var ind1 = document.getElementById('indicador'); 
+
+
     
-    var a2014,a2015,a2016,a2017,a2018,a2019,a2020,a2021;
+    var recd = recd1.innerHTML;
+    var disp = disp1.innerHTML;
+    var plat = plat1.innerHTML;
+    var acc = acc1.innerHTML;
+    var per = per1.innerHTML; 
+    var lic = lic1.innerHTML;
+    var form = form1.innerHTML;
+    var leg = leg1.innerHTML;
+    var gob = gob1.innerHTML;
 
-    for(var i=0;i<=monto.length;i++){
-        if(i==0){
-            a2014=parseInt(monto[i].innerHTML);
-        }
-        else if(i==1){
-            a2015=parseInt(monto[i].innerHTML);
-        }
-        else if(i==2){
-            a2016=parseInt(monto[i].innerHTML);
-        }
-        else if(i==3){
-            a2017=parseInt(monto[i].innerHTML);
-        }
-        else if(i==4){
-            a2018=parseInt(monto[i].innerHTML);
-        }
-        else if(i==5){
-            a2019=parseInt(monto[i].innerHTML);
-        }
-        else if(i==6){
-            a2020=parseInt(monto[i].innerHTML);
-        }
-        else if(i==7){
-            a2021=parseInt(monto[i].innerHTML);
-        }
-    }
+    var ind = ind1.innerHTML;
 
+    ind=((ind*100)/7);
+    ind= ind.toFixed(1);
 
 
     // General Controls
@@ -2641,11 +2638,11 @@ var KTWidgets = function () {
 
         var options = {
             series: [{
-                name: 'Net Profit',
-                data: [35, 65, 75, 55, 45, 60, 55]
+                name: '',
+                data: []
             }, {
-                name: 'Revenue',
-                data: [40, 70, 80, 60, 50, 65, 60]
+                name: 'Puntaje',
+                data: [recd, disp, plat, acc, per, lic, form, leg, gob]
             }],
             chart: {
                 type: 'bar',
@@ -2676,7 +2673,7 @@ var KTWidgets = function () {
                 colors: ['transparent']
             },
             xaxis: {
-                categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+                categories: ['Recolección y Producción de Datos', 'Disponibilidad en línea', 'Plataformas', 'Acceso', 'Periocidad de Actualización', 'Licencia', 'Formatos', 'Legibilidad', 'Gobernanza'],
                 axisBorder: {
                     show: false,
                 },
@@ -2693,7 +2690,7 @@ var KTWidgets = function () {
             },
             yaxis: {
                 min: 0,
-                max: 100,
+                max: 8,
                 labels: {
                     style: {
                         colors: KTApp.getSettings()['colors']['gray']['gray-500'],
@@ -2734,7 +2731,7 @@ var KTWidgets = function () {
                 },
                 y: {
                     formatter: function (val) {
-                        return "$" + val + " thousands"
+                        return val + "/7"
                     }
                 },
                 marker: {
@@ -2775,7 +2772,7 @@ var KTWidgets = function () {
                 data: []
             }, {
                 name: 'Monto',
-                data: [a2014,a2015,a2016,a2017,a2018,a2019,a2020,a2021]
+                data: [20,30,40,50,60,70,80,90]
             }],
             chart: {
                 type: 'bar',
@@ -2864,10 +2861,7 @@ var KTWidgets = function () {
                 },
                 y: {
                     formatter: function (val) {
-                        var valcoms;            
-                        valcoms=val;
-                        valcoms = parseInt(valcoms);
-                        val = valcoms.toLocaleString('en-US');
+
                         return "$ " + val 
                     }
                 },
@@ -3437,7 +3431,7 @@ var KTWidgets = function () {
         }
 
         var options = {
-            series: [74],
+            series: [ind],
             chart: {
                 height: height,
                 type: 'radialBar',
@@ -3465,7 +3459,7 @@ var KTWidgets = function () {
                             color: KTApp.getSettings()['colors']['gray']['gray-700'],
                             fontSize: "30px",
                             fontWeight: "700",
-                            offsetY: -40,
+                            offsetY: -20,
                             show: true
                         }
                     },
@@ -3479,7 +3473,7 @@ var KTWidgets = function () {
             stroke: {
                 lineCap: "round",
             },
-            labels: ["Progress"]
+            labels: [""]
         };
 
         var chart = new ApexCharts(element, options);

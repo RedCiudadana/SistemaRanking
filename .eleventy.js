@@ -4,9 +4,9 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy('assets');
 
-    /*eleventyConfig.addCollection("proyectos", function(collectionApi) {
-        return collectionApi.getFilteredByTag('proyectos');
-    });*/
+    eleventyConfig.addCollection("databier", function(collectionApi) {
+        return collectionApi.getFilteredByTag('databier');
+    });
 
 
 

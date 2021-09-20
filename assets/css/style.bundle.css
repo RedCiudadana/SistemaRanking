@@ -29290,8 +29290,8 @@ h3 {
 }
 
 .bg-radial-gradient-danger {
-  background-color: #089380;
-  background-image: radial-gradient(circle, rgba(255, 226, 229, 0.4), #089380
+  background-color: #FFA800;
+  background-image: radial-gradient(circle, rgba(255, 226, 229, 0.4), #FFA800
   70%);
 }
 
@@ -87444,4 +87444,25 @@ body {
   .nav-link{
     font-size: 1rem !important
   }
+}
+
+#list{
+  width: 100%;
+  height: 200px;
+  overflow-y: scroll;
+  border: #fff 2px solid;
+  list-style: none;
+  background-color: #fff;
+}
+
+#list li{
+  padding: 3px 0;
+}
+
+#list li a{
+  color: rgb(168, 168, 168);
+}
+
+#list li a:hover{
+  color: rgb(116, 129, 136);
 }
