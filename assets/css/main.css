@@ -757,6 +757,7 @@ color: #748188; }
   color: black; /* Black text color */
   padding: 20px; /* Add some padding */
   text-decoration: none;
+  width:200px;
 }
 
 .sub a{
