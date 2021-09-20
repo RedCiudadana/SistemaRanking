@@ -737,6 +737,10 @@ color: #748188; }
   text-decoration: none; /* Remove underline from links */
 }
 
+.ln{
+  list-style: none;
+}
+
 .vertical-menu a:hover {
   background-color: #ccc; /* Dark grey background on mouse-over */
 }
@@ -757,7 +761,7 @@ color: #748188; }
   color: black; /* Black text color */
   padding: 20px; /* Add some padding */
   text-decoration: none;
-  width:200px;
+  width:400px;
 }
 
 .sub a{
