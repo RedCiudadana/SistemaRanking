@@ -781,3 +781,6 @@ color: #748188; }
   display:block;
 }
 
+.nav-link:hover{
+  color: black!important;
+}
