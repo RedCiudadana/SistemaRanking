@@ -59,7 +59,8 @@ permalink: "databier/index.html"
 
 								<div class="row" style="margin-bottom:1rem">
 
-									<div class="col-xl-4" style="padding-top:5%">
+									
+									<div class="col-xl-4 card" style="padding-top:5%">
 
 										<h3 class="text-center">Indicador 2021</h3>
 										<p id="indicador" style="display:none">{{resdata.IndicadorInstitucion2021}}</p>
@@ -69,7 +70,7 @@ permalink: "databier/index.html"
 											
 									</div>
 
-									<div class="col-xl-8" style="display:flex; flex-wrap:wrap">
+									<div class="col-xl-8 " style="display:flex; flex-wrap:wrap">
 										<div class="col-xl-4" style="margin-bottom:1rem">
 
 											<div class="card-body p-0 d-flex rounded " style="background:radial-gradient(94.09% 94.09% at 50% 50%, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0) 100%), #FFA800; margin-bottom:1rem;height:100%!important">
@@ -174,10 +175,342 @@ permalink: "databier/index.html"
 
 								<div class="row" style="margin-bottom:1rem">
 
-									
-									
-									
+									<div class="col-xxl-12">
+										<!--begin::Advance Table Widget 3-->
+										<div class="card card-custom gutter-b" >
+											<!--begin::Header-->
+											<div class="card-header border-0 py-5">
+												<h3 class="card-title align-items-start flex-column">
+													<span class="card-label font-weight-bolder text-dark">Institución</span>
+												</h3>
+											</div>
+											<!--end::Header-->
+											<!--begin::Body-->
+											<div class="card-body pt-0 pb-3">
+												<!--begin::Table-->
+												<div class="table-responsive">
+													<table class="table table-head-custom table-head-bg table-borderless table-vertical-center">
+														<thead>
+															<tr class="text-uppercase">
+																<th style="min-width: 150px" class="pl-7">
+																	<span class="text-dark-75">Institución</span>
+																</th>
+																<th style="max-width: 150px">Recolección y producción de datos</th>
+																<th style="max-width: 150px">Disponibilidad en linea</th>
+																<th style="max-width: 150px">Plataformas</th>
+																<th style="max-width: 150px">Acceso</th>
+																<th style="max-width: 150px">Periodicidad de actualización</th>
+																<th style="max-width: 150px">Licencia</th>
+																<th style="max-width: 150px">Formatos</th>
+																<th style="max-width: 150px">Legibilidad</th>
+																<th style="max-width: 150px">Gobernanza</th>
+																<th style="max-width: 150px">Puntaje</th>
+															</tr>
+														</thead>
+														<tbody>
+															{% for item in collections.databier %}
+															<tr>
+																<td class="pl-0 py-8">
+																	<div class="d-flex align-items-center">
+																		<div>
+																			<a href="{{item.url}}" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">{{item.data.databier.Institucion}}</a><br>
+																		</div>
+																	</div>
+																</td>
+																<!-- 1 -->
+																{% if item.data.databier.Recoleccion_y_produccion_de_datos == 0 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Recoleccion_y_produccion_de_datos == 1 %}
+																<td class="rojo bb"></span></td>
+																{% endif %}
+																{% if item.data.databier.Recoleccion_y_produccion_de_datos == 2 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Recoleccion_y_produccion_de_datos == 3 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Recoleccion_y_produccion_de_datos == 4 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Recoleccion_y_produccion_de_datos == 5 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Recoleccion_y_produccion_de_datos == 6 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Recoleccion_y_produccion_de_datos == 7 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																{% if item.data.databier.Recoleccion_y_produccion_de_datos == 8 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																<!-- 2 -->
+																{% if item.data.databier.Disponibilidad_en_linea == 0 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Disponibilidad_en_linea == 1 %}
+																<td class="rojo bb"></span></td>
+																{% endif %}
+																{% if item.data.databier.Disponibilidad_en_linea == 2 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Disponibilidad_en_linea == 3 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Disponibilidad_en_linea == 4 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Disponibilidad_en_linea == 5 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Disponibilidad_en_linea == 6 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Disponibilidad_en_linea == 7 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																{% if item.data.databier.Disponibilidad_en_linea == 8 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																<!-- 3 -->
+																{% if item.data.databier.Plataformas == 0 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Plataformas == 1 %}
+																<td class="rojo bb"></span></td>
+																{% endif %}
+																{% if item.data.databier.Plataformas == 2 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Plataformas == 3 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Plataformas == 4 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Plataformas == 5 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Plataformas == 6 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Plataformas == 7 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																{% if item.data.databier.Plataformas == 8 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																<!-- 4 -->
+																{% if item.data.databier.Acceso == 0 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Acceso == 1 %}
+																<td class="rojo bb"></span></td>
+																{% endif %}
+																{% if item.data.databier.Acceso == 2 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Acceso == 3 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Acceso == 4 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Acceso == 5 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Acceso == 6 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Acceso == 7 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																{% if item.data.databier.Acceso == 8 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																<!-- 5 -->
+																{% if item.data.databier.Periodicidad_de_actualizacion == 0 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Periodicidad_de_actualizacion == 1 %}
+																<td class="rojo bb"></span></td>
+																{% endif %}
+																{% if item.data.databier.Periodicidad_de_actualizacion == 2 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Periodicidad_de_actualizacion == 3 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Periodicidad_de_actualizacion == 4 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Periodicidad_de_actualizacion == 5 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Periodicidad_de_actualizacion == 6 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Periodicidad_de_actualizacion == 7 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																{% if item.data.databier.Periodicidad_de_actualizacion == 8 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																<!-- 6 -->
+																{% if item.data.databier.Licencia == 0 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Licencia == 1 %}
+																<td class="rojo bb"></span></td>
+																{% endif %}
+																{% if item.data.databier.Licencia == 2 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Licencia == 3 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Licencia == 4 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Licencia == 5 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Licencia == 6 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Licencia == 7 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																{% if item.data.databier.Licencia == 8 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																<!-- 7 -->
+																{% if item.data.databier.Formatos == 0 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Formatos == 1 %}
+																<td class="rojo bb"></span></td>
+																{% endif %}
+																{% if item.data.databier.Formatos == 2 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Formatos == 3 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Formatos == 4 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Formatos == 5 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Formatos == 6 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Formatos == 7 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																{% if item.data.databier.Formatos == 8 %}
+																<td class="verde bb"></td>
+																{% endif %}		
+																<!-- 8 -->
+																{% if item.data.databier.Legibilidad == 0 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Legibilidad == 1 %}
+																<td class="rojo bb"></span></td>
+																{% endif %}
+																{% if item.data.databier.Legibilidad == 2 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Legibilidad == 3 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Legibilidad == 4 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Legibilidad == 5 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Legibilidad == 6 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Legibilidad == 7 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																{% if item.data.databier.Legibilidad == 8 %}
+																<td class="verde bb"></td>
+																{% endif %}	
+																<!-- 9 -->
+																{% if item.data.databier.Gobernanza == 0 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Gobernanza == 1 %}
+																<td class="rojo bb"></span></td>
+																{% endif %}
+																{% if item.data.databier.Gobernanza == 2 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Gobernanza == 3 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Gobernanza == 4 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.Gobernanza == 5 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Gobernanza == 6 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.Gobernanza == 7 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																{% if item.data.databier.Gobernanza == 8 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																<!-- Puntaje -->
+																{% if item.data.databier.IndicadorInstitucion2021 == 0 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.IndicadorInstitucion2021 == 1 %}
+																<td class="rojo bb"></span></td>
+																{% endif %}
+																{% if item.data.databier.IndicadorInstitucion2021 == 2 %}
+																<td class="rojo bb"></td>
+																{% endif %}
+																{% if item.data.databier.IndicadorInstitucion2021 == 3 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.IndicadorInstitucion2021 == 4 %}
+																<td class="naranja bb"></td>
+																{% endif %}
+																{% if item.data.databier.IndicadorInstitucion2021 == 5 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.IndicadorInstitucion2021 == 6 %}
+																<td class="amarillo bb"></td>
+																{% endif %}
+																{% if item.data.databier.IndicadorInstitucion2021 == 7 %}
+																<td class="verde bb"></td>
+																{% endif %}
+																{% if item.data.databier.IndicadorInstitucion2021 == 8 %}
+																<td class="verde bb"></td>
+																{% endif %}
+															</tr>
+															{% endfor %}
+															
+														</tbody>
+													</table>
+												</div>
+												<!--end::Table-->
+											</div>
+											<!--end::Body-->
+										</div>
+										<!--end::Advance Table Widget 3-->
+									</div>
 								</div>
+									
 							</div>
 							<!--end::Layout-->
 						</div>

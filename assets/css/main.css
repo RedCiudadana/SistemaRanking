@@ -784,3 +784,23 @@ color: #748188; }
 .nav-link:hover{
   color: black!important;
 }
+
+.rojo{
+  background-color: red;
+}
+
+.naranja{
+  background-color: orange;
+}
+
+.amarillo{
+  background-color: yellow;
+}
+
+.verde{
+  background-color: green;
+}
+
+.bb{
+  border: #fff 5px solid!important;
+}
