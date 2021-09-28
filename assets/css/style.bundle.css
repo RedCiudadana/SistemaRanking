@@ -29290,8 +29290,8 @@ h3 {
 }
 
 .bg-radial-gradient-danger {
-  background-color: #FFA800;
-  background-image: radial-gradient(circle, rgba(255, 226, 229, 0.4), #FFA800
+  background-color: #fff;
+  background-image: radial-gradient(circle, rgba(255, 226, 229, 0.4), #fff
   70%);
 }
 

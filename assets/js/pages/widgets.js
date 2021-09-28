@@ -2738,7 +2738,7 @@ var KTWidgets = function () {
                     show: false
                 }
             },
-            colors: ['#ffffff', '#ffffff'],
+            colors: ['#ffffff', '#1aac8a'],
             grid: {
                 borderColor: KTApp.getSettings()['colors']['gray']['gray-200'],
                 strokeDashArray: 4,
