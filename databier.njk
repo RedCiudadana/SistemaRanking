@@ -31,6 +31,12 @@ permalink: "databier/index.html"
 						<!--Paginas-->
 						<div class="col-xl-6">
 
+							<select name="OS">
+								{% for item in collections.databier%}
+								<option ><a href="{{item.url}}">-&nbsp{{item.data.databier.Institucion}}</a></option> 
+								{% endfor %}
+							</select>
+
 							<ul id="list">
 
 								{% for item in collections.databier%}
