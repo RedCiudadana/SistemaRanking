@@ -31,19 +31,20 @@ permalink: "databier/index.html"
 						<!--Paginas-->
 						<div class="col-xl-6">
 
-							<select name="OS">
+							<select onchange="window.location.href=this.options[this.options.selectedIndex].value" name="elige" size="1" style=" height: 50px;    font-weight: 500; padding-left:20px">
+								<option value="#" selected>Seleccione la Institución de interés</option>
 								{% for item in collections.databier%}
-								<option ><a href="{{item.url}}">-&nbsp{{item.data.databier.Institucion}}</a></option> 
+								<option value="{{item.url}}">{{item.data.databier.Institucion}}</option> 
 								{% endfor %}
 							</select>
 
-							<ul id="list">
+							<!--ul id="list">
 
 								{% for item in collections.databier%}
 								<li><a href="{{item.url}}">-&nbsp{{item.data.databier.Institucion}}</a><li>
 								{% endfor %}
 
-							</ul>
+							</ul-->
 							
 							
 						</div>
