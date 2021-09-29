@@ -1,75 +1,27 @@
-
-
-
-
 "use strict";
 
 // Class definition
 var KTWidgets = function () {
     // Private properties
-    var edad = document.querySelectorAll("[id='edad']");
-    var de18a23 = 0;
-    var de23a30 = 0; 
-    var de31a40 = 0;  
-    var de40ade = 0;   
 
-    for(var i=0; i<edad.length; i++) {
-        var x = edad[i].innerHTML;
+    var recd1 = document.getElementById('recd'); 
+    var disp1 = document.getElementById('disp'); 
+    var plat1 = document.getElementById('plat'); 
+    var acc1 = document.getElementById('acc'); 
+    var per1 = document.getElementById('per'); 
+    var lic1 = document.getElementById('lic'); 
+    var form1 = document.getElementById('form'); 
+    var leg1 = document.getElementById('leg'); 
+    var gob1 = document.getElementById('gob'); 
 
-        if(x=="18-23 años"){
-            de18a23 = de18a23 + 1 ;
-        }
-        else if (x=="23-30 años"){
-            de23a30 = de23a30 + 1 ;
-        }
-        else if (x=="31-40 años"){
-            de31a40 = de31a40 + 1 ;
-        }
-        else {
-            de40ade = de40ade + 1 ;
-        }
-    }
-
-    var anos = document.querySelectorAll("[id='anos']");
-    var per = document.querySelectorAll("[id='personas']");
-
-    var a2015=0;
-    var a2016=0;
-    var a2017=0;
-    var a2018=0;
-    var a2019=0;
-    var a2020=0;
-    var a2021=0;
+    var ind1 = document.getElementById('indicador'); 
 
 
-    let mapa=new Map();
-    for(var i=0; i<anos.length; i++){
-        mapa.set(anos[i].innerHTML,per[i].innerHTML);
-    }
 
-    
-    if (mapa.has("2015")){
-        a2015 = mapa.get("2015");
-    }
-    if (mapa.has("2016")){
-        a2016 = mapa.get("2016");
-    }
-    if(mapa.has("2017")){
-        a2017 = mapa.get("2017");
-    }
-    if (mapa.has("2018")){
-        a2018 = mapa.get("2018");
-    }
-    if (mapa.has("2019")){
-        a2019 = mapa.get("2019");
-    }
-    if(mapa.has("2020")){
-        a2020 = mapa.get("2020");
-    }
-    if (mapa.has("2021")){
-        a2021 = mapa.get("2021");
-    }
+    var ind = ind1.innerHTML;
 
+    ind=((ind*100)/7);
+    ind= ind.toFixed(1);
 
 
     // General Controls
@@ -923,7 +875,7 @@ var KTWidgets = function () {
 
     // Charts widgets
     var _initChartsWidget1 = function () {
-        var element = document.getElementById("kt_charts_widget_1_chart2");
+        var element = document.getElementById("kt_charts_widget_1_chart");
 
         if (!element) {
             return;
@@ -932,7 +884,7 @@ var KTWidgets = function () {
         var options = {
             series: [{
                 name: 'Personas',
-                data: [de18a23, de23a30,de31a40, de40ade]
+                data: [20000, 4000]
             }],
             chart: {
                 type: 'bar',
@@ -960,7 +912,7 @@ var KTWidgets = function () {
                 colors: ['transparent']
             },
             xaxis: {
-                categories: ['18-23', '23-30', '31-40', '40 en adelante'],
+                categories: ['18-25', '26-35'],
                 axisBorder: {
                     show: false,
                 },
@@ -1015,7 +967,7 @@ var KTWidgets = function () {
                 },
                 y: {
                     formatter: function (val) {
-                        return val 
+                        return val + " personas"
                     }
                 }
             },
@@ -2676,11 +2628,11 @@ var KTWidgets = function () {
 
         var options = {
             series: [{
-                name: 'Net Profit',
-                data: [35, 65, 75, 55, 45, 60, 55]
+                name: '',
+                data: []
             }, {
-                name: 'Revenue',
-                data: [40, 70, 80, 60, 50, 65, 60]
+                name: 'Puntaje',
+                data: [recd, disp, plat, acc, per, lic, form, leg, gob]
             }],
             chart: {
                 type: 'bar',
@@ -2711,7 +2663,7 @@ var KTWidgets = function () {
                 colors: ['transparent']
             },
             xaxis: {
-                categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+                categories: ['Recolección y Producción de Datos', 'Disponibilidad en línea', 'Plataformas', 'Acceso', 'Periocidad de Actualización', 'Licencia', 'Formatos', 'Legibilidad', 'Gobernanza'],
                 axisBorder: {
                     show: false,
                 },
@@ -2728,7 +2680,7 @@ var KTWidgets = function () {
             },
             yaxis: {
                 min: 0,
-                max: 100,
+                max: 8,
                 labels: {
                     style: {
                         colors: KTApp.getSettings()['colors']['gray']['gray-500'],
@@ -2769,14 +2721,14 @@ var KTWidgets = function () {
                 },
                 y: {
                     formatter: function (val) {
-                        return "$" + val + " thousands"
+                        return val + "/7"
                     }
                 },
                 marker: {
                     show: false
                 }
             },
-            colors: ['#ffffff', '#ffffff'],
+            colors: ['#ffffff', '#1aac8a'],
             grid: {
                 borderColor: KTApp.getSettings()['colors']['gray']['gray-200'],
                 strokeDashArray: 4,
@@ -2806,11 +2758,11 @@ var KTWidgets = function () {
 
         var options = {
             series: [{
-                name: 'Net Profit',
-                data: [35, 65, 75, 55, 45, 60, 55]
+                name: '',
+                data: []
             }, {
-                name: 'Revenue',
-                data: [40, 70, 80, 60, 50, 65, 60]
+                name: 'Monto',
+                data: [20,30,40,50,60,70,80,90]
             }],
             chart: {
                 type: 'bar',
@@ -2841,7 +2793,7 @@ var KTWidgets = function () {
                 colors: ['transparent']
             },
             xaxis: {
-                categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+                categories: ['2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'],
                 axisBorder: {
                     show: false,
                 },
@@ -2858,7 +2810,7 @@ var KTWidgets = function () {
             },
             yaxis: {
                 min: 0,
-                max: 100,
+                max: 220000,
                 labels: {
                     style: {
                         colors: KTApp.getSettings()['colors']['gray']['gray-500'],
@@ -2899,7 +2851,8 @@ var KTWidgets = function () {
                 },
                 y: {
                     formatter: function (val) {
-                        return "$" + val + " thousands"
+
+                        return "$ " + val 
                     }
                 },
                 marker: {
@@ -2936,8 +2889,8 @@ var KTWidgets = function () {
 
         var options = {
             series: [{
-                name: 'Personas',
-                data: [a2015,a2016,a2017,a2018,a2019,a2020,a2021]
+                name: 'Net Profit',
+                data: [30, 25, 45, 30, 55, 55]
             }],
             chart: {
                 type: 'area',
@@ -2970,7 +2923,7 @@ var KTWidgets = function () {
                 colors: [KTApp.getSettings()['colors']['theme']['base']['info']]
             },
             xaxis: {
-                categories: ['2015','2016', '2017', '2018', '2019', '2020', '2021'],
+                categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
                 axisBorder: {
                     show: false,
                 },
@@ -3044,7 +2997,7 @@ var KTWidgets = function () {
                 },
                 y: {
                     formatter: function (val) {
-                        return  val 
+                        return "Q" + val + " thousands"
                     }
                 }
             },
@@ -3468,7 +3421,7 @@ var KTWidgets = function () {
         }
 
         var options = {
-            series: [74],
+            series: [ind],
             chart: {
                 height: height,
                 type: 'radialBar',
@@ -3496,7 +3449,7 @@ var KTWidgets = function () {
                             color: KTApp.getSettings()['colors']['gray']['gray-700'],
                             fontSize: "30px",
                             fontWeight: "700",
-                            offsetY: -40,
+                            offsetY: -20,
                             show: true
                         }
                     },
@@ -3510,7 +3463,7 @@ var KTWidgets = function () {
             stroke: {
                 lineCap: "round",
             },
-            labels: ["Progress"]
+            labels: [""]
         };
 
         var chart = new ApexCharts(element, options);
