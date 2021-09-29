@@ -9,15 +9,15 @@ var leg1 = document.getElementById('leg');
 var gob1 = document.getElementById('gob'); 
 
 
-var recd = parseInt(recd1.innerHTML);
-var disp = parseInt(disp1.innerHTML);
-var plat = parseInt(plat1.innerHTML);
-var acc = parseInt(acc1.innerHTML);
-var per = parseInt(per1.innerHTML); 
-var lic = parseInt(lic1.innerHTML);
-var form = parseInt(form1.innerHTML);
-var leg = parseInt(leg1.innerHTML);
-var gob = parseInt(gob1.innerHTML);
+var recd = parseFloat(recd1.innerHTML);
+var disp = parseFloat(disp1.innerHTML);
+var plat = parseFloat(plat1.innerHTML);
+var acc = parseFloat(acc1.innerHTML);
+var per = parseFloat(per1.innerHTML); 
+var lic = parseFloat(lic1.innerHTML);
+var form = parseFloat(form1.innerHTML);
+var leg = parseFloat(leg1.innerHTML);
+var gob = parseFloat(gob1.innerHTML);
 
 
 
@@ -67,7 +67,7 @@ Highcharts.chart('container', {
     },
     series: [{
         name: 'Puntaje Esperado',
-        data: [7,7,7,7,7,7,7,7,7],
+        data: [8,8,8,8,8,8,8,8,8],
         color: '#91c9bc'
     },
         {
