@@ -137,6 +137,11 @@ permalink: "databier/index.html"
 								<div class="row" style="margin-bottom:1rem">
 
 									<div class="col-xl-12" >
+
+
+										<figure class="highcharts-figure" style="padding:2rem">
+											<div id="container"></div>
+										</figure>
 										<!--begin::Mixed Widget 5-->
 										<div class="card card-custom bg-radial-gradient-danger gutter-b">
 											<!--begin::Header-->
@@ -216,11 +221,11 @@ permalink: "databier/index.html"
 																<th style="min-width: 150px" class="pl-7" >
 																	<span class="text-dark-75">Institución</span>
 																</th>
-																<th style="max-width: 150px">Recolección y producción de datos</th>
-																<th style="max-width: 150px">Disponibilidad en linea</th>
+																<th style="max-width: 150px">Prod. de datos</th>
+																<th style="max-width: 150px">Disponibilidad</th>
 																<th style="max-width: 150px">Plataformas</th>
 																<th style="max-width: 150px">Acceso</th>
-																<th style="max-width: 150px">Periodicidad de actualización</th>
+																<th style="max-width: 150px">Actualización</th>
 																<th style="max-width: 150px">Licencia</th>
 																<th style="max-width: 150px">Formatos</th>
 																<th style="max-width: 150px">Legibilidad</th>
@@ -230,11 +235,11 @@ permalink: "databier/index.html"
 														</thead>
 														<tbody>
 															{% for item in collections.databier %}
-															<tr>
-																<td class="pl-0 py-8">
+															<tr >
+																<td class="pl-0 py-8" style="padding:15px 0!important">
 																	<div class="d-flex align-items-center">
 																		<div>
-																			<a href="{{item.url}}" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">{{item.data.databier.Institucion}}</a><br>
+																			<a href="{{item.url}}" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">{{item.data.databier.id_institucion}}</a><br>
 																		</div>
 																	</div>
 																</td>
@@ -590,6 +595,11 @@ permalink: "databier/index.html"
 <script src="/assets/js/pages/widgets.js"></script>
 <!--end::Page Scripts-->
 
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="/assets/js/pages/features/charts/highcharts.js"></script>
 
 {% endblock %}
 
