@@ -18,7 +18,7 @@ permalink: "gobelec/index.html"
 {% block content %}
 <!--begin::Body-->
 			<!-- breadcrumb-area-start -->
-			<div class="breadcrumb-area pt-150 pb-155" style="background-color:#FFA800">
+			<div class="breadcrumb-area pt-150 pb-155" style="background-image:url('/assets/SISTEMA RANKING/SLIDER/03.png');background-size:cover;">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-6">
@@ -31,14 +31,20 @@ permalink: "gobelec/index.html"
 						<!--Paginas-->
 						<div class="col-xl-6">
 							
+							<select onchange="window.location.href=this.options[this.options.selectedIndex].value" name="elige" size="1" style=" height: 50px;    font-weight: 500; padding-left:20px">
+								<option value="#" selected>Seleccione la Institución de interés</option>
+								{% for item in collections.gobelec%}
+								<option value="{{item.url}}">{{item.data.gobelec.Institución}}</option> 
+								{% endfor %}
+							</select>
 
-							<ul id="list">
+							<!--ul id="list">
 
 								{% for item in collections.gobelec%}
 								<li><a href="{{item.url}}">-&nbsp{{item.data.gobelec.Institución}}</a><li>
 								{% endfor %}
 
-							</ul>
+							</ul-->
 							
 							
 						</div>
