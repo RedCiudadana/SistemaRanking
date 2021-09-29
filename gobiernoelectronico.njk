@@ -16,7 +16,43 @@ permalink: "gobelec/{{gobelec.id}}/index.html"
 {% endblock %}
 
 {% block content %}
+      <!-- breadcrumb-area-start -->
+			<div class="breadcrumb-area pt-150 pb-155" style="background-image:url('/assets/SISTEMA RANKING/SLIDER/02.png');background-size:cover;">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6">
+							<div class="breadcrumb-text text-center" style="padding: 0 2rem">
+								<h2 class="text-white text-left" style="font-weight:1000;font-size:5rem">{{gobelec.Institución}}</h2>
+								<h3 class="font-size-h4 font-size-h1-sm font-size-h4-lg font-size-h1-xl mb-0 text-white font-weight-bolder">
+								</h3>
+							</div>
+						</div>
+						<!--Paginas-->
+						<div class="col-xl-6">
 
+							<select onchange="window.location.href=this.options[this.options.selectedIndex].value" name="elige" size="1" style=" height: 50px;    font-weight: 500; padding-left:20px">
+								<option value="#" selected>Seleccione la Institución de interés</option>
+								{% for item in collections.gobelec%}
+								<option value="{{item.url}}">{{item.data.gobelec.Institución}}</option> 
+								{% endfor %}
+							</select>
+
+              <div class="card text-center col-3" style="background:#1aac8a;justify-content:center;margin-top:2rem;padding:2rem 0;border: 1px solid #1aac8a!important"><a href="/gobelec/index.html" class="text-white" >Ver Datos Globales</a></div>
+
+							<!--ul id="list">
+
+								{% for item in collections.databier%}
+								<li><a href="{{item.url}}">-&nbsp{{item.data.databier.Institucion}}</a><li>
+								{% endfor %}
+
+							</ul-->
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- breadcrumb-area-end -->
       <!--begin::Content-->
 			<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 				<!--begin::Entry-->
