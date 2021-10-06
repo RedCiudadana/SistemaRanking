@@ -47,6 +47,7 @@ Highcharts.chart('container', {
     },
     yAxis: {
       min: 0,
+      max: 8,
       title: {
         text: 'Puntaje'
       }
@@ -66,15 +67,9 @@ Highcharts.chart('container', {
       }
     },
     series: [{
-        name: 'Puntaje Esperado',
-        data: [8,8,8,8,8,8,8,8,8],
-        color: '#91c9bc'
-    },
-        {
       name: 'Puntaje Actual',
       data: [recd, disp, plat, acc, per, lic, form, leg, gob],
       color: '#1aac8a'
-  
     }
 
     ]
