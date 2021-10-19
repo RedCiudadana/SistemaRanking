@@ -1,3 +1,25 @@
+var recd1 = document.getElementById('recd'); 
+var disp1 = document.getElementById('disp'); 
+var plat1 = document.getElementById('plat'); 
+var acc1 = document.getElementById('acc'); 
+var per1 = document.getElementById('per'); 
+var lic1 = document.getElementById('lic'); 
+var form1 = document.getElementById('form'); 
+var leg1 = document.getElementById('leg'); 
+var gob1 = document.getElementById('gob'); 
+
+
+var recd = parseFloat(recd1.innerHTML);
+var disp = parseFloat(disp1.innerHTML);
+var plat = parseFloat(plat1.innerHTML);
+var acc = parseFloat(acc1.innerHTML);
+var per = parseFloat(per1.innerHTML); 
+var lic = parseFloat(lic1.innerHTML);
+var form = parseFloat(form1.innerHTML);
+var leg = parseFloat(leg1.innerHTML);
+var gob = parseFloat(gob1.innerHTML);
+
+
 import { Column } from '@antv/g2plot';
 
 const data = [
@@ -83,11 +105,11 @@ const data = [
   },
 ];
 
-const stackedColumnPlot = new Column('container', {
+const stackedColumnPlot = new Column('container2', {
   data,
   isGroup: true,
-  xField: '月份',
-  yField: '月均降雨量',
+  xField: 'Categorías',
+  yField: 'Puntaje',
   seriesField: 'name',
   /** 设置颜色 */
   //color: ['#1ca9e6', '#f88c24'],
