@@ -31,7 +31,7 @@ permalink: "gobelec/index.html"
 						<!--Paginas-->
 						<div class="col-xl-6">
 							
-							<select onchange="window.location.href=this.options[this.options.selectedIndex].value" name="elige" size="1" style=" height: 50px;    font-weight: 500; padding-left:20px">
+							<select onchange="window.location.href=this.options[this.options.selectedIndex].value" name="elige" size="1" style=" height: 50px;    font-weight: 500; padding-left:20px ; max-width:100%">
 								<option value="#" selected>Seleccione la Institución de interés</option>
 								{% for item in collections.gobelec%}
 								<option value="{{item.url}}">{{item.data.gobelec.Institución}}</option> 
