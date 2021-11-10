@@ -1,0 +1,94 @@
+---
+pagination:
+  data: datosabiertos
+  size: 1
+  addAllPagesToCollections: true
+  alias: databier
+tags:
+  - databier
+permalink: "databier/graficos/{{databier.id}}/index.html"
+---
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link  rel="icon"   href="/assets/favicon.png" type="image/png" />
+
+    <meta name="description" content="Updates and statistics" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="canonical" href="https://keenthemes.com/metronic" />
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <!--end::Fonts-->
+    <!--begin::Page Vendors Styles(used by this page)-->
+    <link href="/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+    <!--end::Page Vendors Styles-->
+    <!--begin::Global Theme Styles(used by all pages)-->
+    <link href="/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/main.css" rel="stylesheet" >
+
+    <!--end::Global Theme Styles-->
+    <!--begin::Layout Themes(used by all pages)-->
+    <!--end::Layout Themes-->
+    <link rel="shortcut icon" href="/assets/favicon.png" />
+</head>
+<body id="kt_body" class="header-fixed header-mobile-fixed header-bottom-enabled page-loading">
+
+
+<div class="row">
+
+    <div class="col-xl-12" >
+
+    <!--begin::Mixed Widget 5-->
+    <div class="card card-custom bg-radial-gradient-danger gutter-b" style="padding-top:2rem;">
+        <h3 class="text-center">Indicadores de Evaluación - Datos Abiertos 2021 - Global</h3>
+        <div style="padding:2rem;background-color: #fff" id="container2"></div>
+        <!--begin::Header-->
+        <!--div class="card-header border-0 py-5">
+        <h3 class="card-title font-weight-bolder text-white">Índice de datos abiertos 2021 -&nbsp{{databier.Institucion}}&nbsp({{databier.id_institucion}}) </h3>
+        </div-->
+        <!--end::Header-->
+        <!--begin::Body-->
+        <div>
+
+        <p id="recd" style="display:none">{{databier.Recoleccion_y_produccion_de_datos}} </p> 
+        <p id="disp" style="display:none">{{databier.Disponibilidad_en_linea}} </p>
+        <p id="plat" style="display:none">{{databier.Plataformas}} </p>
+        <p id="acc" style="display:none">{{databier.Acceso}} </p>
+        <p id="per" style="display:none">{{databier.Periodicidad_de_actualizacion}} </p>
+        <p id="lic" style="display:none">{{databier.Licencia}} </p>
+        <p id="form" style="display:none">{{databier.Formatos}} </p>
+        <p id="leg" style="display:none">{{databier.Legibilidad}} </p>
+        <p id="gob" style="display:none">{{databier.Gobernanza}} </p>
+        <!--begin::Chart-->
+        <!--div id="kt_mixed_widget_5_chart" style="height: 200px"></div-->
+        <!--end::Chart-->
+        <!--begin::Stats-->
+        <div class="">
+            <!--begin::Row-->
+            <div class="row m-0">
+            <!--div class="col px-8 py-6 mr-8">
+            <div class="font-size-sm text-muted font-weight-bold">Average Sale</div>
+            <div class="font-size-h4 font-weight-bolder">$650</div>
+            </div-->
+            </div>
+            <!--end::Row-->
+        </div>
+        <!--end::Stats-->
+        </div>
+        <!--end::Body-->
+    </div>
+    <!--end::Mixed Widget 5-->
+    </div>
+
+    <div class="col-xl-12" >
+
+<!-- import CDN source -->
+<script type="text/javascript" src="https://unpkg.com/@antv/g2plot@latest/dist/g2plot.min.js"></script>
+<script  src="/assets/js/pages/features/charts/g2plot.js"></script>
+
+</body>
+</html>
