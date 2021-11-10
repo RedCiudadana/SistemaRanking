@@ -2,10 +2,10 @@
 pagination:
   data: datosabiertos
   size: 1
-  addAllPagesToCollections: true
-  alias: datos
+  addAllPagesToCollections: false
+  alias: databier
 tags:
-permalink: "databier/graficas/{{datos.id}}/index.html"
+permalink: "databier/graficas/{{databier.id}}/index.html"
 ---
 <!doctype html>
 <html lang="en">
@@ -43,28 +43,7 @@ permalink: "databier/graficas/{{datos.id}}/index.html"
 
     <!--begin::Mixed Widget 5-->
     <div class="card card-custom bg-radial-gradient-danger gutter-b" style="padding-top:2rem;">
-         <div class="popup-wrapper">
-            <div class="popup">
-                <div class="popup-close">x</div>
-                <div class="popup-content">
-                    <h2>Copie el código </h2>
-                    <code>
-                      &lt;embed src="https://sistemaranking.redciudadana.org/databier/graficas/{{datos.id}}" type="text/html" class="w-100" &gt;
-                    </code>
-                    
-                </div>
-            </div>
-        </div>
-
-        <div style="display:flex;justify-content:end">
-          
-          <div >
-            <h3 class="text-center">Indicadores de Evaluación - Datos Abiertos 2021 - Global</h3>
-          </div>
-          <div >
-            <button style="margin:0 20px 0 200px!important">Compartir Gráfica</button>
-          </div>
-        </div>
+        <h3 class="text-center">Indicadores de Evaluación - Datos Abiertos 2021 - Global</h3>
         <div style="padding:2rem;background-color: #fff" id="container2"></div>
         <!--begin::Header-->
         <!--div class="card-header border-0 py-5">
@@ -74,15 +53,15 @@ permalink: "databier/graficas/{{datos.id}}/index.html"
         <!--begin::Body-->
         <div>
 
-        <p id="recd" style="display:none">{{datos.Recoleccion_y_produccion_de_datos}} </p> 
-        <p id="disp" style="display:none">{{datos.Disponibilidad_en_linea}} </p>
-        <p id="plat" style="display:none">{{datos.Plataformas}} </p>
-        <p id="acc" style="display:none">{{datos.Acceso}} </p>
-        <p id="per" style="display:none">{{datos.Periodicidad_de_actualizacion}} </p>
-        <p id="lic" style="display:none">{{datos.Licencia}} </p>
-        <p id="form" style="display:none">{{datos.Formatos}} </p>
-        <p id="leg" style="display:none">{{datos.Legibilidad}} </p>
-        <p id="gob" style="display:none">{{datos.Gobernanza}} </p>
+        <p id="recd" style="display:none">{{databier.Recoleccion_y_produccion_de_datos}} </p> 
+        <p id="disp" style="display:none">{{databier.Disponibilidad_en_linea}} </p>
+        <p id="plat" style="display:none">{{databier.Plataformas}} </p>
+        <p id="acc" style="display:none">{{databier.Acceso}} </p>
+        <p id="per" style="display:none">{{databier.Periodicidad_de_actualizacion}} </p>
+        <p id="lic" style="display:none">{{databier.Licencia}} </p>
+        <p id="form" style="display:none">{{databier.Formatos}} </p>
+        <p id="leg" style="display:none">{{databier.Legibilidad}} </p>
+        <p id="gob" style="display:none">{{databier.Gobernanza}} </p>
         <!--begin::Chart-->
         <!--div id="kt_mixed_widget_5_chart" style="height: 200px"></div-->
         <!--end::Chart-->
