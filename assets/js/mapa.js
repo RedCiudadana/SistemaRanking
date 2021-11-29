@@ -97,9 +97,19 @@ var zoom =  8;
 
 
 var map = L.map('map').setView([lat, lng], zoom)
-
+//zoom maximo y minimo
 map.options.minZoom = 7;
 map.options.maxZoom = 11;
+
+//limites del mapa para no tener mapa infinito
+var southWest = L.latLng(17.926475979176438, -92.4169921875),
+northEast = L.latLng(13.07947827722643, -88.04443359375),
+bounds = L.latLngBounds(southWest, northEast);
+
+map.setMaxBounds(bounds);
+map.on('drag', function() {
+  map.panInsideBounds(bounds, { animate: false });
+});
 
 var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 var osmAttrib='Map data &copy; OpenStreetMap contributors';
