@@ -1,4 +1,8 @@
 /* 02. header */
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(/assets/FONT/Roboto-Medium.ttf);
+}
 /* 2 header */
 .header-transparent {
     position: absolute;
@@ -786,25 +790,33 @@ color: #748188; }
 }
 
 .rojo{
-  background-color: red;
+  background-color: #424242;
 }
 
 .naranja{
-  background-color: orange;
+  background-color: #f3404f;
 }
 
 .amarillo{
-  background-color: yellow;
+  background-color: #f2b705;
+}
+
+.morado{
+  background-color: #923acc;
 }
 
 .verde{
-  background-color: green;
+  background-color: #04bf9d;
+}
+
+.gris{
+  background-color: #ccccd1;
 }
 
 .bb{
   border: #fff 2px solid!important;
 }
-
+w
 button {
   display: block;
   margin: 20px auto;
