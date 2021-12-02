@@ -112,7 +112,7 @@ map.on('drag', function() {
 });
 
 var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-var osmAttrib='Map data &copy; OpenStreetMap contributors';
+var osmAttrib='Se agradecen los datos del mapa aca...';
 var osm = new L.TileLayer(osmUrl, {minZoom: 3, maxZoom: 8, attribution: osmAttrib});
 map.addLayer(osm);
 
