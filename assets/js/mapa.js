@@ -30,7 +30,7 @@ function onEachFeature(feature, layer) {
   layer.on({
       mouseover: highlightFeature,
       mouseout: resetHighlight,
-      click: zoomToFeature
+      //click: zoomToFeature
   });
 }
 
@@ -55,9 +55,9 @@ function highlightFeature(e) {
   info.update(layer.feature.properties);
 }
 
-function zoomToFeature(e) {
-  map.fitBounds(e.target.getBounds());
-}
+//function zoomToFeature(e) {
+//  map.fitBounds(e.target.getBounds());
+//}
 
 
 
