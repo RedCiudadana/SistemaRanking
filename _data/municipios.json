@@ -1,0 +1,2382 @@
+[
+    {
+        "mun": "Guatemala",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "101",
+        "AREA_GEO": "214.802847605"
+    },
+    {
+        "mun": "Santa Catarina Pinula",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "102",
+        "AREA_GEO": "67.2714533227"
+    },
+    {
+        "mun": "San José Pinula",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "103",
+        "AREA_GEO": "197.752583946"
+    },
+    {
+        "mun": "San José del Golfo",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "104",
+        "AREA_GEO": "76.3950434945"
+    },
+    {
+        "mun": "Palencia",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "105",
+        "AREA_GEO": "217.448744897"
+    },
+    {
+        "mun": "Chinautla",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "106",
+        "AREA_GEO": "66.9843875304"
+    },
+    {
+        "mun": "San Pedro Ayampuc",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "107",
+        "AREA_GEO": "106.709643201"
+    },
+    {
+        "mun": "Mixco",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "108",
+        "AREA_GEO": "90.2428146785"
+    },
+    {
+        "mun": "San Pedro Sacatepéquez",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "109",
+        "AREA_GEO": "28.855822453"
+    },
+    {
+        "mun": "San Juan Sacatepéquez",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "110",
+        "AREA_GEO": "272.671421058"
+    },
+    {
+        "mun": "San Raymundo",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "111",
+        "AREA_GEO": "124.861976077"
+    },
+    {
+        "mun": "Chuarrancho",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "112",
+        "AREA_GEO": "117.851170173"
+    },
+    {
+        "mun": "Fraijanes",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "113",
+        "AREA_GEO": "115.041767998"
+    },
+    {
+        "mun": "Amatitlán",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "114",
+        "AREA_GEO": "100.874149107"
+    },
+    {
+        "mun": "Villa Nueva",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "115",
+        "AREA_GEO": "88.9881153907"
+    },
+    {
+        "mun": "Villa Canales",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "116",
+        "AREA_GEO": "279.736933936"
+    },
+    {
+        "mun": "Petapa",
+        "cod_dep": "1",
+        "depto": "Guatemala",
+        "cod_mun": "117",
+        "AREA_GEO": "23.772081092"
+    },
+    {
+        "mun": "Mazatenango",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1001",
+        "AREA_GEO": "65.2583223452"
+    },
+    {
+        "mun": "Cuyotenango",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1002",
+        "AREA_GEO": "88.6600310081"
+    },
+    {
+        "mun": "San Francisco Zapotitlán",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1003",
+        "AREA_GEO": "48.9032579995"
+    },
+    {
+        "mun": "San Bernardino",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1004",
+        "AREA_GEO": "14.3161939321"
+    },
+    {
+        "mun": "San José El Ídolo",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1005",
+        "AREA_GEO": "137.739202355"
+    },
+    {
+        "mun": "Santo Domingo Suchitepéquez",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1006",
+        "AREA_GEO": "236.118580298"
+    },
+    {
+        "mun": "San Lorenzo",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1007",
+        "AREA_GEO": "286.588138276"
+    },
+    {
+        "mun": "Samayac",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1008",
+        "AREA_GEO": "25.8275113169"
+    },
+    {
+        "mun": "San Pablo Jocopila",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1009",
+        "AREA_GEO": "26.1168427083"
+    },
+    {
+        "mun": "San Antonio Suchitepéquez",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1010",
+        "AREA_GEO": "75.0211596779"
+    },
+    {
+        "mun": "San Miguel Panán",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1011",
+        "AREA_GEO": "28.800782358"
+    },
+    {
+        "mun": "San Gabriel",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1012",
+        "AREA_GEO": "6.6016773484"
+    },
+    {
+        "mun": "Chicacao",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1013",
+        "AREA_GEO": "211.028875706"
+    },
+    {
+        "mun": "Patulul",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1014",
+        "AREA_GEO": "338.834336553"
+    },
+    {
+        "mun": "Santa Bárbara",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1015",
+        "AREA_GEO": "177.055972739"
+    },
+    {
+        "mun": "San Juan Bautista",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1016",
+        "AREA_GEO": "34.6108528344"
+    },
+    {
+        "mun": "Santo Tomas La Unión",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1017",
+        "AREA_GEO": "12.4824363902"
+    },
+    {
+        "mun": "Zunilito",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1018",
+        "AREA_GEO": "13.0921512185"
+    },
+    {
+        "mun": "Pueblo Nuevo",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1019",
+        "AREA_GEO": "18.5169037748"
+    },
+    {
+        "mun": "Río Bravo",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1020",
+        "AREA_GEO": "158.255291049"
+    },
+    {
+        "mun": "La Máquina",
+        "cod_dep": "10",
+        "depto": "Suchitepéquez",
+        "cod_mun": "1021",
+        "AREA_GEO": "146.604344982"
+    },
+    {
+        "mun": "Retalhuleu",
+        "cod_dep": "11",
+        "depto": "Retalhuleu",
+        "cod_mun": "1101",
+        "AREA_GEO": "808.564133455"
+    },
+    {
+        "mun": "San Sebastián",
+        "cod_dep": "11",
+        "depto": "Retalhuleu",
+        "cod_mun": "1102",
+        "AREA_GEO": "17.7199461311"
+    },
+    {
+        "mun": "Santa Cruz Muluá",
+        "cod_dep": "11",
+        "depto": "Retalhuleu",
+        "cod_mun": "1103",
+        "AREA_GEO": "128.203364023"
+    },
+    {
+        "mun": "San Martín Zapotitlán",
+        "cod_dep": "11",
+        "depto": "Retalhuleu",
+        "cod_mun": "1104",
+        "AREA_GEO": "9.39387824578"
+    },
+    {
+        "mun": "San Felipe Retalhuleu",
+        "cod_dep": "11",
+        "depto": "Retalhuleu",
+        "cod_mun": "1105",
+        "AREA_GEO": "36.6182973965"
+    },
+    {
+        "mun": "San Andrés Villa Seca",
+        "cod_dep": "11",
+        "depto": "Retalhuleu",
+        "cod_mun": "1106",
+        "AREA_GEO": "435.136894772"
+    },
+    {
+        "mun": "Champerico",
+        "cod_dep": "11",
+        "depto": "Retalhuleu",
+        "cod_mun": "1107",
+        "AREA_GEO": "328.063737761"
+    },
+    {
+        "mun": "Nuevo San Carlos",
+        "cod_dep": "11",
+        "depto": "Retalhuleu",
+        "cod_mun": "1108",
+        "AREA_GEO": "86.5415296644"
+    },
+    {
+        "mun": "El Asintal",
+        "cod_dep": "11",
+        "depto": "Retalhuleu",
+        "cod_mun": "1109",
+        "AREA_GEO": "93.6677905426"
+    },
+    {
+        "mun": "San Marcos",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1201",
+        "AREA_GEO": "120.58826156"
+    },
+    {
+        "mun": "San Pedro Sacatepéquez",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1202",
+        "AREA_GEO": "77.3956332289"
+    },
+    {
+        "mun": "San Antonio Sacatepéquez",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1203",
+        "AREA_GEO": "47.3225288444"
+    },
+    {
+        "mun": "Comitancillo",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1204",
+        "AREA_GEO": "134.830364268"
+    },
+    {
+        "mun": "San Miguel Ixtahuacán",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1205",
+        "AREA_GEO": "196.199916813"
+    },
+    {
+        "mun": "Concepción Tutuapa",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1206",
+        "AREA_GEO": "224.227941985"
+    },
+    {
+        "mun": "Tacaná",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1207",
+        "AREA_GEO": "362.094074111"
+    },
+    {
+        "mun": "Sibinal",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1208",
+        "AREA_GEO": "104.386062725"
+    },
+    {
+        "mun": "Tajumulco",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1209",
+        "AREA_GEO": "251.486942751"
+    },
+    {
+        "mun": "Tejutla",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1210",
+        "AREA_GEO": "143.054457141"
+    },
+    {
+        "mun": "San Rafael Pie de la Cuesta",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1211",
+        "AREA_GEO": "45.2206928832"
+    },
+    {
+        "mun": "Nuevo Progreso",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1212",
+        "AREA_GEO": "140.463244989"
+    },
+    {
+        "mun": "El Tumbador",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1213",
+        "AREA_GEO": "165.777840143"
+    },
+    {
+        "mun": "El Rodeo",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1214",
+        "AREA_GEO": "51.7307726976"
+    },
+    {
+        "mun": "Malacatán",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1215",
+        "AREA_GEO": "212.50365782"
+    },
+    {
+        "mun": "Catarina",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1216",
+        "AREA_GEO": "81.4479244329"
+    },
+    {
+        "mun": "Ayutla",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1217",
+        "AREA_GEO": "118.705474216"
+    },
+    {
+        "mun": "Ocós",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1218",
+        "AREA_GEO": "53.2551595592"
+    },
+    {
+        "mun": "San Pablo",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1219",
+        "AREA_GEO": "139.295480495"
+    },
+    {
+        "mun": "El Quetzal",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1220",
+        "AREA_GEO": "87.4999798719"
+    },
+    {
+        "mun": "La Reforma",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1221",
+        "AREA_GEO": "74.1524252702"
+    },
+    {
+        "mun": "Pajapita",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1222",
+        "AREA_GEO": "131.189531753"
+    },
+    {
+        "mun": "Ixchiguán",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1223",
+        "AREA_GEO": "104.476954809"
+    },
+    {
+        "mun": "San José Ojetenam",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1224",
+        "AREA_GEO": "78.6518044622"
+    },
+    {
+        "mun": "San Cristóbal Cucho",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1225",
+        "AREA_GEO": "29.7139546523"
+    },
+    {
+        "mun": "Sipacapa",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1226",
+        "AREA_GEO": "151.445400179"
+    },
+    {
+        "mun": "Esquipulas Palo Gordo",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1227",
+        "AREA_GEO": "50.5385160387"
+    },
+    {
+        "mun": "Río Blanco",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1228",
+        "AREA_GEO": "31.2029301966"
+    },
+    {
+        "mun": "San Lorenzo",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1229",
+        "AREA_GEO": "44.84031567"
+    },
+    {
+        "mun": "La Blanca",
+        "cod_dep": "12",
+        "depto": "San Marcos",
+        "cod_mun": "1230",
+        "AREA_GEO": "98.682402528"
+    },
+    {
+        "mun": "Huehuetenango",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1301",
+        "AREA_GEO": "235.339640894"
+    },
+    {
+        "mun": "Chiantla",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1302",
+        "AREA_GEO": "413.153280747"
+    },
+    {
+        "mun": "Malacatancito",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1303",
+        "AREA_GEO": "256.837193427"
+    },
+    {
+        "mun": "Cuilco",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1304",
+        "AREA_GEO": "453.853907471"
+    },
+    {
+        "mun": "Nentón",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1305",
+        "AREA_GEO": "766.26397885"
+    },
+    {
+        "mun": "San Pedro Nécta",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1306",
+        "AREA_GEO": "132.893480402"
+    },
+    {
+        "mun": "Jacaltenango",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1307",
+        "AREA_GEO": "207.006943512"
+    },
+    {
+        "mun": "San Pedro Soloma",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1308",
+        "AREA_GEO": "263.019974064"
+    },
+    {
+        "mun": "San Idelfonso Ixtahuacán",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1309",
+        "AREA_GEO": "185.534643509"
+    },
+    {
+        "mun": "Santa Bárbara",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1310",
+        "AREA_GEO": "150.086101772"
+    },
+    {
+        "mun": "La Libertad",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1311",
+        "AREA_GEO": "217.097539736"
+    },
+    {
+        "mun": "La Democracia",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1312",
+        "AREA_GEO": "168.975124744"
+    },
+    {
+        "mun": "San Miguel Acatán",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1313",
+        "AREA_GEO": "175.870036254"
+    },
+    {
+        "mun": "San Rafael La Independencia",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1314",
+        "AREA_GEO": "56.5845800395"
+    },
+    {
+        "mun": "Todos Santos Cuchumatán",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1315",
+        "AREA_GEO": "269.23440772"
+    },
+    {
+        "mun": "San Juan Atitán",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1316",
+        "AREA_GEO": "57.9681342318"
+    },
+    {
+        "mun": "Santa Eulalia",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1317",
+        "AREA_GEO": "250.68104703"
+    },
+    {
+        "mun": "San Mateo Ixtatán",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1318",
+        "AREA_GEO": "583.426998839"
+    },
+    {
+        "mun": "Colotenango",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1319",
+        "AREA_GEO": "61.8308984894"
+    },
+    {
+        "mun": "San Sebastián Huehuetenango",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1320",
+        "AREA_GEO": "90.3612416408"
+    },
+    {
+        "mun": "Tectitán",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1321",
+        "AREA_GEO": "72.5820717736"
+    },
+    {
+        "mun": "Concepción Huista",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1322",
+        "AREA_GEO": "86.0419646914"
+    },
+    {
+        "mun": "San Juan Ixcoy",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1323",
+        "AREA_GEO": "210.727848234"
+    },
+    {
+        "mun": "San Antonio Huista",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1324",
+        "AREA_GEO": "64.9580574426"
+    },
+    {
+        "mun": "San Sebastián Coatán",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1325",
+        "AREA_GEO": "156.70063634"
+    },
+    {
+        "mun": "Barillas",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1326",
+        "AREA_GEO": "1165.49660264"
+    },
+    {
+        "mun": "Aguacatán",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1327",
+        "AREA_GEO": "325.164088009"
+    },
+    {
+        "mun": "San Rafael Pétzal",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1328",
+        "AREA_GEO": "25.173708518"
+    },
+    {
+        "mun": "San Gaspar Ixchil",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1329",
+        "AREA_GEO": "35.4468350188"
+    },
+    {
+        "mun": "Santiago Chimaltenango",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1330",
+        "AREA_GEO": "39.3759986875"
+    },
+    {
+        "mun": "Santa Ana Huista",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1331",
+        "AREA_GEO": "117.127080082"
+    },
+    {
+        "mun": "Unión Cantinil",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1332",
+        "AREA_GEO": "47.0492401149"
+    },
+    {
+        "mun": "Petatán",
+        "cod_dep": "13",
+        "depto": "Huehuetenango",
+        "cod_mun": "1333",
+        "AREA_GEO": "16.7739712942"
+    },
+    {
+        "mun": "Santa Cruz del Quiché",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1401",
+        "AREA_GEO": "112.235119131"
+    },
+    {
+        "mun": "Chiché",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1402",
+        "AREA_GEO": "115.783516879"
+    },
+    {
+        "mun": "Chinique",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1403",
+        "AREA_GEO": "61.1939964846"
+    },
+    {
+        "mun": "Zacualpa",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1404",
+        "AREA_GEO": "247.596093469"
+    },
+    {
+        "mun": "Chajul",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1405",
+        "AREA_GEO": "525.627727724"
+    },
+    {
+        "mun": "Chichicastenango",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1406",
+        "AREA_GEO": "245.775053287"
+    },
+    {
+        "mun": "Patzité",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1407",
+        "AREA_GEO": "53.1742895197"
+    },
+    {
+        "mun": "San Antonio Ilotenango",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1408",
+        "AREA_GEO": "138.699552564"
+    },
+    {
+        "mun": "San Pedro Jocopilas",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1409",
+        "AREA_GEO": "294.877697466"
+    },
+    {
+        "mun": "Cunén",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1410",
+        "AREA_GEO": "225.947722471"
+    },
+    {
+        "mun": "San Juan Cotzal",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1411",
+        "AREA_GEO": "162.969178745"
+    },
+    {
+        "mun": "Joyabaj",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1412",
+        "AREA_GEO": "472.569932653"
+    },
+    {
+        "mun": "Nebaj",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1413",
+        "AREA_GEO": "852.928833773"
+    },
+    {
+        "mun": "San Andrés Sajcabajá",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1414",
+        "AREA_GEO": "169.307219197"
+    },
+    {
+        "mun": "Uspantán",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1415",
+        "AREA_GEO": "836.829783567"
+    },
+    {
+        "mun": "Sacapulas",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1416",
+        "AREA_GEO": "369.737207934"
+    },
+    {
+        "mun": "San Bartolomé Jocotenango",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1417",
+        "AREA_GEO": "103.404501519"
+    },
+    {
+        "mun": "Canillá",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1418",
+        "AREA_GEO": "102.089737915"
+    },
+    {
+        "mun": "Chicamán",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1419",
+        "AREA_GEO": "566.231402827"
+    },
+    {
+        "mun": "Ixcán",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1420",
+        "AREA_GEO": "1583.00608821"
+    },
+    {
+        "mun": "Pachalum",
+        "cod_dep": "14",
+        "depto": "Quiché",
+        "cod_mun": "1421",
+        "AREA_GEO": "41.7958353966"
+    },
+    {
+        "mun": "Salamá",
+        "cod_dep": "15",
+        "depto": "Baja Verapaz",
+        "cod_mun": "1501",
+        "AREA_GEO": "675.00608261"
+    },
+    {
+        "mun": "San Miguel Chicaj",
+        "cod_dep": "15",
+        "depto": "Baja Verapaz",
+        "cod_mun": "1502",
+        "AREA_GEO": "327.066028989"
+    },
+    {
+        "mun": "Rabinal",
+        "cod_dep": "15",
+        "depto": "Baja Verapaz",
+        "cod_mun": "1503",
+        "AREA_GEO": "311.838634001"
+    },
+    {
+        "mun": "Cubulco",
+        "cod_dep": "15",
+        "depto": "Baja Verapaz",
+        "cod_mun": "1504",
+        "AREA_GEO": "691.50852436"
+    },
+    {
+        "mun": "Granados",
+        "cod_dep": "15",
+        "depto": "Baja Verapaz",
+        "cod_mun": "1505",
+        "AREA_GEO": "154.558076789"
+    },
+    {
+        "mun": "El Chol",
+        "cod_dep": "15",
+        "depto": "Baja Verapaz",
+        "cod_mun": "1506",
+        "AREA_GEO": "119.187978528"
+    },
+    {
+        "mun": "San Jerónimo",
+        "cod_dep": "15",
+        "depto": "Baja Verapaz",
+        "cod_mun": "1507",
+        "AREA_GEO": "221.710016522"
+    },
+    {
+        "mun": "Purulhá",
+        "cod_dep": "15",
+        "depto": "Baja Verapaz",
+        "cod_mun": "1508",
+        "AREA_GEO": "516.984866166"
+    },
+    {
+        "mun": "Cobán",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1601",
+        "AREA_GEO": "2266.84467354"
+    },
+    {
+        "mun": "Santa Cruz Verapaz",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1602",
+        "AREA_GEO": "78.0279350492"
+    },
+    {
+        "mun": "San Cristóbal Verapaz",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1603",
+        "AREA_GEO": "384.330190188"
+    },
+    {
+        "mun": "Tactic",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1604",
+        "AREA_GEO": "116.409225264"
+    },
+    {
+        "mun": "Tamahú",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1605",
+        "AREA_GEO": "69.9017495848"
+    },
+    {
+        "mun": "Tucurú",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1606",
+        "AREA_GEO": "219.082313414"
+    },
+    {
+        "mun": "Panzós",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1607",
+        "AREA_GEO": "729.043293933"
+    },
+    {
+        "mun": "Senahú",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1608",
+        "AREA_GEO": "705.444535883"
+    },
+    {
+        "mun": "San Pedro Carchá",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1609",
+        "AREA_GEO": "1314.44692785"
+    },
+    {
+        "mun": "San Juan Chamelco",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1610",
+        "AREA_GEO": "186.933370927"
+    },
+    {
+        "mun": "Lanquín",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1611",
+        "AREA_GEO": "236.169788137"
+    },
+    {
+        "mun": "Cahabón",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1612",
+        "AREA_GEO": "760.451253939"
+    },
+    {
+        "mun": "Chisec",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1613",
+        "AREA_GEO": "1098.99817368"
+    },
+    {
+        "mun": "Chahal",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1614",
+        "AREA_GEO": "460.524877948"
+    },
+    {
+        "mun": "Fray Bartolomé de las Casas",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1615",
+        "AREA_GEO": "1213.25521569"
+    },
+    {
+        "mun": "Santa Catalina la Tinta",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1616",
+        "AREA_GEO": "197.297629827"
+    },
+    {
+        "mun": "Raxruhá",
+        "cod_dep": "16",
+        "depto": "Alta Verapaz",
+        "cod_mun": "1617",
+        "AREA_GEO": "602.865932523"
+    },
+    {
+        "mun": "Flores",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1701",
+        "AREA_GEO": "4348.02409284"
+    },
+    {
+        "mun": "San José",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1702",
+        "AREA_GEO": "2021.80607637"
+    },
+    {
+        "mun": "San Benito",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1703",
+        "AREA_GEO": "206.784513366"
+    },
+    {
+        "mun": "San Andrés",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1704",
+        "AREA_GEO": "8270.31650608"
+    },
+    {
+        "mun": "La Libertad",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1705",
+        "AREA_GEO": "5286.74567352"
+    },
+    {
+        "mun": "San Francisco",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1706",
+        "AREA_GEO": "501.065186058"
+    },
+    {
+        "mun": "Santa Ana",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1707",
+        "AREA_GEO": "933.804056961"
+    },
+    {
+        "mun": "Dolores",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1708",
+        "AREA_GEO": "1396.61223669"
+    },
+    {
+        "mun": "San Luis",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1709",
+        "AREA_GEO": "2384.08418459"
+    },
+    {
+        "mun": "Sayaxché",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1710",
+        "AREA_GEO": "3627.42878972"
+    },
+    {
+        "mun": "Melchor de Mencos",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1711",
+        "AREA_GEO": "2449.63809068"
+    },
+    {
+        "mun": "Poptún",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1712",
+        "AREA_GEO": "1687.5852646"
+    },
+    {
+        "mun": "Las Cruces",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1713",
+        "AREA_GEO": "1769.64874561"
+    },
+    {
+        "mun": "El Chal",
+        "cod_dep": "17",
+        "depto": "Petén",
+        "cod_mun": "1714",
+        "AREA_GEO": "957.845977446"
+    },
+    {
+        "mun": "Puerto Barrios",
+        "cod_dep": "18",
+        "depto": "Izabal",
+        "cod_mun": "1801",
+        "AREA_GEO": "1195.85283856"
+    },
+    {
+        "mun": "Livingston",
+        "cod_dep": "18",
+        "depto": "Izabal",
+        "cod_mun": "1802",
+        "AREA_GEO": "2352.93245722"
+    },
+    {
+        "mun": "El Estor",
+        "cod_dep": "18",
+        "depto": "Izabal",
+        "cod_mun": "1803",
+        "AREA_GEO": "1573.86754908"
+    },
+    {
+        "mun": "Morales",
+        "cod_dep": "18",
+        "depto": "Izabal",
+        "cod_mun": "1804",
+        "AREA_GEO": "1324.23932414"
+    },
+    {
+        "mun": "Los Amates",
+        "cod_dep": "18",
+        "depto": "Izabal",
+        "cod_mun": "1805",
+        "AREA_GEO": "1042.06238015"
+    },
+    {
+        "mun": "Zacapa",
+        "cod_dep": "19",
+        "depto": "Zacapa",
+        "cod_mun": "1901",
+        "AREA_GEO": "424.892926713"
+    },
+    {
+        "mun": "Estanzuela",
+        "cod_dep": "19",
+        "depto": "Zacapa",
+        "cod_mun": "1902",
+        "AREA_GEO": "94.6317830262"
+    },
+    {
+        "mun": "Río Hondo",
+        "cod_dep": "19",
+        "depto": "Zacapa",
+        "cod_mun": "1903",
+        "AREA_GEO": "456.927324979"
+    },
+    {
+        "mun": "Gualán",
+        "cod_dep": "19",
+        "depto": "Zacapa",
+        "cod_mun": "1904",
+        "AREA_GEO": "781.077519426"
+    },
+    {
+        "mun": "Teculután",
+        "cod_dep": "19",
+        "depto": "Zacapa",
+        "cod_mun": "1905",
+        "AREA_GEO": "211.795721044"
+    },
+    {
+        "mun": "Usumatlán",
+        "cod_dep": "19",
+        "depto": "Zacapa",
+        "cod_mun": "1906",
+        "AREA_GEO": "108.13463315"
+    },
+    {
+        "mun": "Cabañas",
+        "cod_dep": "19",
+        "depto": "Zacapa",
+        "cod_mun": "1907",
+        "AREA_GEO": "138.4640434"
+    },
+    {
+        "mun": "San Diego",
+        "cod_dep": "19",
+        "depto": "Zacapa",
+        "cod_mun": "1908",
+        "AREA_GEO": "103.426219131"
+    },
+    {
+        "mun": "La Unión",
+        "cod_dep": "19",
+        "depto": "Zacapa",
+        "cod_mun": "1909",
+        "AREA_GEO": "214.498126329"
+    },
+    {
+        "mun": "Huité",
+        "cod_dep": "19",
+        "depto": "Zacapa",
+        "cod_mun": "1910",
+        "AREA_GEO": "84.7259777239"
+    },
+    {
+        "mun": "San Jorge",
+        "cod_dep": "19",
+        "depto": "Zacapa",
+        "cod_mun": "1911",
+        "AREA_GEO": "82.3064782819"
+    },
+    {
+        "mun": "Guastatoya",
+        "cod_dep": "2",
+        "depto": "El Progreso",
+        "cod_mun": "201",
+        "AREA_GEO": "217.868988999"
+    },
+    {
+        "mun": "Morazán",
+        "cod_dep": "2",
+        "depto": "El Progreso",
+        "cod_mun": "202",
+        "AREA_GEO": "347.312482265"
+    },
+    {
+        "mun": "San Agustín Acasaguastlán",
+        "cod_dep": "2",
+        "depto": "El Progreso",
+        "cod_mun": "203",
+        "AREA_GEO": "425.806897279"
+    },
+    {
+        "mun": "San Cristóbal Acasaguastlán",
+        "cod_dep": "2",
+        "depto": "El Progreso",
+        "cod_mun": "204",
+        "AREA_GEO": "164.534293013"
+    },
+    {
+        "mun": "El Jícaro",
+        "cod_dep": "2",
+        "depto": "El Progreso",
+        "cod_mun": "205",
+        "AREA_GEO": "114.40870388"
+    },
+    {
+        "mun": "Sansare",
+        "cod_dep": "2",
+        "depto": "El Progreso",
+        "cod_mun": "206",
+        "AREA_GEO": "143.94409568"
+    },
+    {
+        "mun": "Sanarate",
+        "cod_dep": "2",
+        "depto": "El Progreso",
+        "cod_mun": "207",
+        "AREA_GEO": "274.007914404"
+    },
+    {
+        "mun": "San Antonio La Paz",
+        "cod_dep": "2",
+        "depto": "El Progreso",
+        "cod_mun": "208",
+        "AREA_GEO": "147.307924132"
+    },
+    {
+        "mun": "Chiquimula",
+        "cod_dep": "20",
+        "depto": "Chiquimula",
+        "cod_mun": "2001",
+        "AREA_GEO": "351.607441826"
+    },
+    {
+        "mun": "San José La Arada",
+        "cod_dep": "20",
+        "depto": "Chiquimula",
+        "cod_mun": "2002",
+        "AREA_GEO": "115.324275518"
+    },
+    {
+        "mun": "San Juan la Ermita",
+        "cod_dep": "20",
+        "depto": "Chiquimula",
+        "cod_mun": "2003",
+        "AREA_GEO": "80.4817837523"
+    },
+    {
+        "mun": "Jocotán",
+        "cod_dep": "20",
+        "depto": "Chiquimula",
+        "cod_mun": "2004",
+        "AREA_GEO": "250.999962345"
+    },
+    {
+        "mun": "Camotán",
+        "cod_dep": "20",
+        "depto": "Chiquimula",
+        "cod_mun": "2005",
+        "AREA_GEO": "230.381452947"
+    },
+    {
+        "mun": "Olopa",
+        "cod_dep": "20",
+        "depto": "Chiquimula",
+        "cod_mun": "2006",
+        "AREA_GEO": "112.104085429"
+    },
+    {
+        "mun": "Esquipulas",
+        "cod_dep": "20",
+        "depto": "Chiquimula",
+        "cod_mun": "2007",
+        "AREA_GEO": "500.570943648"
+    },
+    {
+        "mun": "Concepción Las Minas",
+        "cod_dep": "20",
+        "depto": "Chiquimula",
+        "cod_mun": "2008",
+        "AREA_GEO": "214.81276743"
+    },
+    {
+        "mun": "Quezaltepeque",
+        "cod_dep": "20",
+        "depto": "Chiquimula",
+        "cod_mun": "2009",
+        "AREA_GEO": "244.473407568"
+    },
+    {
+        "mun": "San Jacinto",
+        "cod_dep": "20",
+        "depto": "Chiquimula",
+        "cod_mun": "2010",
+        "AREA_GEO": "70.748891822"
+    },
+    {
+        "mun": "Ipala",
+        "cod_dep": "20",
+        "depto": "Chiquimula",
+        "cod_mun": "2011",
+        "AREA_GEO": "230.023013151"
+    },
+    {
+        "mun": "Jalapa",
+        "cod_dep": "21",
+        "depto": "Jalapa",
+        "cod_mun": "2101",
+        "AREA_GEO": "685.160802177"
+    },
+    {
+        "mun": "San Pedro Pinula",
+        "cod_dep": "21",
+        "depto": "Jalapa",
+        "cod_mun": "2102",
+        "AREA_GEO": "530.708534693"
+    },
+    {
+        "mun": "San Luis Jilotepeque",
+        "cod_dep": "21",
+        "depto": "Jalapa",
+        "cod_mun": "2103",
+        "AREA_GEO": "209.978457088"
+    },
+    {
+        "mun": "San Manuel Chaparrón",
+        "cod_dep": "21",
+        "depto": "Jalapa",
+        "cod_mun": "2104",
+        "AREA_GEO": "128.736195191"
+    },
+    {
+        "mun": "San Carlos Alzatate",
+        "cod_dep": "21",
+        "depto": "Jalapa",
+        "cod_mun": "2105",
+        "AREA_GEO": "89.7874235899"
+    },
+    {
+        "mun": "Monjas",
+        "cod_dep": "21",
+        "depto": "Jalapa",
+        "cod_mun": "2106",
+        "AREA_GEO": "148.066421635"
+    },
+    {
+        "mun": "Mataquescuintla",
+        "cod_dep": "21",
+        "depto": "Jalapa",
+        "cod_mun": "2107",
+        "AREA_GEO": "237.871914867"
+    },
+    {
+        "mun": "Jutiapa",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2201",
+        "AREA_GEO": "624.506693551"
+    },
+    {
+        "mun": "El Progreso",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2202",
+        "AREA_GEO": "99.4500056065"
+    },
+    {
+        "mun": "Santa Catarina Mita",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2203",
+        "AREA_GEO": "202.150415927"
+    },
+    {
+        "mun": "Agua Blanca",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2204",
+        "AREA_GEO": "238.628497116"
+    },
+    {
+        "mun": "Asunción Mita",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2205",
+        "AREA_GEO": "502.58502292"
+    },
+    {
+        "mun": "Yupiltepeque",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2206",
+        "AREA_GEO": "55.5536820446"
+    },
+    {
+        "mun": "Atescatempa",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2207",
+        "AREA_GEO": "85.5665270206"
+    },
+    {
+        "mun": "Jerez",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2208",
+        "AREA_GEO": "52.2714259424"
+    },
+    {
+        "mun": "El Adelanto",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2209",
+        "AREA_GEO": "29.737489456"
+    },
+    {
+        "mun": "Zapotitlán",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2210",
+        "AREA_GEO": "78.5042343609"
+    },
+    {
+        "mun": "Comapa",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2211",
+        "AREA_GEO": "173.779291856"
+    },
+    {
+        "mun": "Jalpatagua",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2212",
+        "AREA_GEO": "228.656261964"
+    },
+    {
+        "mun": "Conguaco",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2213",
+        "AREA_GEO": "132.23757494"
+    },
+    {
+        "mun": "Moyuta",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2214",
+        "AREA_GEO": "412.439833577"
+    },
+    {
+        "mun": "Pasaco",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2215",
+        "AREA_GEO": "148.852593283"
+    },
+    {
+        "mun": "San José Acatempa",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2216",
+        "AREA_GEO": "112.400323678"
+    },
+    {
+        "mun": "Quesada",
+        "cod_dep": "22",
+        "depto": "Jutiapa",
+        "cod_mun": "2217",
+        "AREA_GEO": "139.793894374"
+    },
+    {
+        "mun": "Antigua Guatemala",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "301",
+        "AREA_GEO": "68.8860679073"
+    },
+    {
+        "mun": "Jocotenango",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "302",
+        "AREA_GEO": "9.95095900572"
+    },
+    {
+        "mun": "Pastores",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "303",
+        "AREA_GEO": "39.1723643946"
+    },
+    {
+        "mun": "Sumpango",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "304",
+        "AREA_GEO": "50.5186480776"
+    },
+    {
+        "mun": "Santo Domingo Xenacoj",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "305",
+        "AREA_GEO": "24.7645105497"
+    },
+    {
+        "mun": "Santiago Sacatepéquez",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "306",
+        "AREA_GEO": "40.4515072117"
+    },
+    {
+        "mun": "San Bartolomé Milpas Altas",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "307",
+        "AREA_GEO": "8.34877960597"
+    },
+    {
+        "mun": "San Lucas Sacatepéquez",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "308",
+        "AREA_GEO": "23.2706995645"
+    },
+    {
+        "mun": "Santa Lucía Milpas Altas",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "309",
+        "AREA_GEO": "9.19414290853"
+    },
+    {
+        "mun": "Magdalena Milpas Altas",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "310",
+        "AREA_GEO": "14.5618050543"
+    },
+    {
+        "mun": "Santa María de Jesús",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "311",
+        "AREA_GEO": "60.7964702799"
+    },
+    {
+        "mun": "Ciudad Vieja",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "312",
+        "AREA_GEO": "35.7235050983"
+    },
+    {
+        "mun": "San Miguel Dueñas",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "313",
+        "AREA_GEO": "44.754113139"
+    },
+    {
+        "mun": "Alotenango",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "314",
+        "AREA_GEO": "90.0945482383"
+    },
+    {
+        "mun": "San Antonio Aguas Calientes",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "315",
+        "AREA_GEO": "5.1481172417"
+    },
+    {
+        "mun": "Santa Catarina Barahona",
+        "cod_dep": "3",
+        "depto": "Sacatepéquez",
+        "cod_mun": "316",
+        "AREA_GEO": "10.5449448158"
+    },
+    {
+        "mun": "Chimaltenango",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "401",
+        "AREA_GEO": "49.0623067955"
+    },
+    {
+        "mun": "San José Poaquil",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "402",
+        "AREA_GEO": "96.541157809"
+    },
+    {
+        "mun": "San Martín Jilotepeque",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "403",
+        "AREA_GEO": "409.857520609"
+    },
+    {
+        "mun": "Comalapa",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "404",
+        "AREA_GEO": "85.7105480629"
+    },
+    {
+        "mun": "Santa Apolonia",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "405",
+        "AREA_GEO": "46.123962857"
+    },
+    {
+        "mun": "Tecpán Guatemala",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "406",
+        "AREA_GEO": "247.810689803"
+    },
+    {
+        "mun": "Patzún",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "407",
+        "AREA_GEO": "184.125424422"
+    },
+    {
+        "mun": "Pochuta",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "408",
+        "AREA_GEO": "129.468850434"
+    },
+    {
+        "mun": "Patzicía",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "409",
+        "AREA_GEO": "64.7137301207"
+    },
+    {
+        "mun": "Santa Cruz Balanyá",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "410",
+        "AREA_GEO": "19.8043465499"
+    },
+    {
+        "mun": "Acatenango",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "411",
+        "AREA_GEO": "130.925554881"
+    },
+    {
+        "mun": "Yepocapa",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "412",
+        "AREA_GEO": "205.390590822"
+    },
+    {
+        "mun": "San Andrés Itzapa",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "413",
+        "AREA_GEO": "67.6289431758"
+    },
+    {
+        "mun": "Parramos",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "414",
+        "AREA_GEO": "29.4261795049"
+    },
+    {
+        "mun": "Zaragoza",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "415",
+        "AREA_GEO": "51.8970306263"
+    },
+    {
+        "mun": "El Tejar",
+        "cod_dep": "4",
+        "depto": "Chimaltenango",
+        "cod_mun": "416",
+        "AREA_GEO": "45.53690429"
+    },
+    {
+        "mun": "Escuintla",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "501",
+        "AREA_GEO": "546.354578414"
+    },
+    {
+        "mun": "Santa Lucia Cotzulmalguapa",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "502",
+        "AREA_GEO": "454.710734221"
+    },
+    {
+        "mun": "La Democracia",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "503",
+        "AREA_GEO": "289.340728191"
+    },
+    {
+        "mun": "Siquinalá",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "504",
+        "AREA_GEO": "184.412785763"
+    },
+    {
+        "mun": "Masagua",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "505",
+        "AREA_GEO": "473.426762728"
+    },
+    {
+        "mun": "Tiquisate",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "506",
+        "AREA_GEO": "471.620044943"
+    },
+    {
+        "mun": "La Gomera",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "507",
+        "AREA_GEO": "515.687792842"
+    },
+    {
+        "mun": "Guanagazapa",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "508",
+        "AREA_GEO": "227.438319208"
+    },
+    {
+        "mun": "San José",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "509",
+        "AREA_GEO": "217.753460869"
+    },
+    {
+        "mun": "Iztapa",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "510",
+        "AREA_GEO": "65.1856333545"
+    },
+    {
+        "mun": "Palín",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "511",
+        "AREA_GEO": "110.984373297"
+    },
+    {
+        "mun": "San Vicente Pacaya",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "512",
+        "AREA_GEO": "150.019307214"
+    },
+    {
+        "mun": "Nueva Concepción",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "513",
+        "AREA_GEO": "524.063946754"
+    },
+    {
+        "mun": "Sipacate",
+        "cod_dep": "5",
+        "depto": "Escuintla",
+        "cod_mun": "514",
+        "AREA_GEO": "269.782893227"
+    },
+    {
+        "mun": "Cuilapa",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "601",
+        "AREA_GEO": "213.6511648"
+    },
+    {
+        "mun": "Barberena",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "602",
+        "AREA_GEO": "224.409932565"
+    },
+    {
+        "mun": "Santa Rosa de Lima",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "603",
+        "AREA_GEO": "134.031184828"
+    },
+    {
+        "mun": "Casillas",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "604",
+        "AREA_GEO": "204.393963052"
+    },
+    {
+        "mun": "San Rafael Las Flores",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "605",
+        "AREA_GEO": "85.0999925604"
+    },
+    {
+        "mun": "Oratorio",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "606",
+        "AREA_GEO": "310.172172009"
+    },
+    {
+        "mun": "San Juan Tecuaco",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "607",
+        "AREA_GEO": "33.630552059"
+    },
+    {
+        "mun": "Chiquimulilla",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "608",
+        "AREA_GEO": "600.1742785"
+    },
+    {
+        "mun": "Taxisco",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "609",
+        "AREA_GEO": "639.944031398"
+    },
+    {
+        "mun": "Santa María Ixhuatán",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "610",
+        "AREA_GEO": "164.677049831"
+    },
+    {
+        "mun": "Guazacapán",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "611",
+        "AREA_GEO": "109.514811322"
+    },
+    {
+        "mun": "Santa Cruz Naranjo",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "612",
+        "AREA_GEO": "58.4468684217"
+    },
+    {
+        "mun": "Pueblo Nuevo Viñas",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "613",
+        "AREA_GEO": "250.423687106"
+    },
+    {
+        "mun": "Nueva Santa Rosa",
+        "cod_dep": "6",
+        "depto": "Santa Rosa",
+        "cod_mun": "614",
+        "AREA_GEO": "131.971567"
+    },
+    {
+        "mun": "Sololá",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "701",
+        "AREA_GEO": "151.340335945"
+    },
+    {
+        "mun": "San José Chacayá",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "702",
+        "AREA_GEO": "15.7886528058"
+    },
+    {
+        "mun": "Santa María Visitación",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "703",
+        "AREA_GEO": "20.7556692087"
+    },
+    {
+        "mun": "Santa Lucía Utatlán",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "704",
+        "AREA_GEO": "51.0627937403"
+    },
+    {
+        "mun": "Nahualá",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "705",
+        "AREA_GEO": "186.222645182"
+    },
+    {
+        "mun": "Santa Catarina Ixtahuacán",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "706",
+        "AREA_GEO": "189.768649962"
+    },
+    {
+        "mun": "Santa Clara La Laguna",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "707",
+        "AREA_GEO": "14.3566071286"
+    },
+    {
+        "mun": "Concepción",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "708",
+        "AREA_GEO": "14.9719715094"
+    },
+    {
+        "mun": "San Andrés Semetabaj",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "709",
+        "AREA_GEO": "52.9609951453"
+    },
+    {
+        "mun": "Panajachel",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "710",
+        "AREA_GEO": "7.72228567823"
+    },
+    {
+        "mun": "Santa Catarina Palopó",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "711",
+        "AREA_GEO": "4.72962423267"
+    },
+    {
+        "mun": "San Antonio Palopó",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "712",
+        "AREA_GEO": "26.1138702132"
+    },
+    {
+        "mun": "San Lucas Tolimán",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "713",
+        "AREA_GEO": "73.6717360913"
+    },
+    {
+        "mun": "Santa Cruz La Laguna",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "714",
+        "AREA_GEO": "11.2664368719"
+    },
+    {
+        "mun": "San Pablo La Laguna",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "715",
+        "AREA_GEO": "6.13463336188"
+    },
+    {
+        "mun": "San Marcos La Laguna",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "716",
+        "AREA_GEO": "9.18433056566"
+    },
+    {
+        "mun": "San Juan La Laguna",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "717",
+        "AREA_GEO": "37.174694952"
+    },
+    {
+        "mun": "San Pedro La Laguna",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "718",
+        "AREA_GEO": "50.6571510778"
+    },
+    {
+        "mun": "Santiago Atitlán",
+        "cod_dep": "7",
+        "depto": "Sololá",
+        "cod_mun": "719",
+        "AREA_GEO": "115.911498593"
+    },
+    {
+        "mun": "Totonicapán",
+        "cod_dep": "8",
+        "depto": "Totonicapán",
+        "cod_mun": "801",
+        "AREA_GEO": "244.522989383"
+    },
+    {
+        "mun": "San Cristóbal Totonicapán",
+        "cod_dep": "8",
+        "depto": "Totonicapán",
+        "cod_mun": "802",
+        "AREA_GEO": "44.2664144164"
+    },
+    {
+        "mun": "San Francisco El Alto",
+        "cod_dep": "8",
+        "depto": "Totonicapán",
+        "cod_mun": "803",
+        "AREA_GEO": "72.644874113"
+    },
+    {
+        "mun": "San Andrés Xecul",
+        "cod_dep": "8",
+        "depto": "Totonicapán",
+        "cod_mun": "804",
+        "AREA_GEO": "16.4936381976"
+    },
+    {
+        "mun": "Momostenango",
+        "cod_dep": "8",
+        "depto": "Totonicapán",
+        "cod_mun": "805",
+        "AREA_GEO": "360.077879707"
+    },
+    {
+        "mun": "Santa María Chiquimula",
+        "cod_dep": "8",
+        "depto": "Totonicapán",
+        "cod_mun": "806",
+        "AREA_GEO": "237.491058111"
+    },
+    {
+        "mun": "Santa Lucía La Reforma",
+        "cod_dep": "8",
+        "depto": "Totonicapán",
+        "cod_mun": "807",
+        "AREA_GEO": "45.4045670054"
+    },
+    {
+        "mun": "San Bartolo Aguas Calientes",
+        "cod_dep": "8",
+        "depto": "Totonicapán",
+        "cod_mun": "808",
+        "AREA_GEO": "56.4120293147"
+    },
+    {
+        "mun": "Quetzaltenango",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "901",
+        "AREA_GEO": "126.8491388"
+    },
+    {
+        "mun": "Salcajá",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "902",
+        "AREA_GEO": "16.8815410169"
+    },
+    {
+        "mun": "Olintepeque",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "903",
+        "AREA_GEO": "32.1837140661"
+    },
+    {
+        "mun": "San Carlos Sija",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "904",
+        "AREA_GEO": "226.579376688"
+    },
+    {
+        "mun": "Sibilia",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "905",
+        "AREA_GEO": "41.0758776741"
+    },
+    {
+        "mun": "Cabricán",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "906",
+        "AREA_GEO": "83.6846209331"
+    },
+    {
+        "mun": "Cajolá",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "907",
+        "AREA_GEO": "20.5341078919"
+    },
+    {
+        "mun": "San Miguel Sigüila",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "908",
+        "AREA_GEO": "17.132166285"
+    },
+    {
+        "mun": "San Juan Ostuncalco",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "909",
+        "AREA_GEO": "109.036889118"
+    },
+    {
+        "mun": "San Mateo",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "910",
+        "AREA_GEO": "10.8256167989"
+    },
+    {
+        "mun": "Concepción Chiquirichapa",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "911",
+        "AREA_GEO": "21.8968329243"
+    },
+    {
+        "mun": "San Martín Sacatepéquez",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "912",
+        "AREA_GEO": "143.793787041"
+    },
+    {
+        "mun": "Almolonga",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "913",
+        "AREA_GEO": "12.5501961426"
+    },
+    {
+        "mun": "Cantel",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "914",
+        "AREA_GEO": "49.7412976851"
+    },
+    {
+        "mun": "Huitán",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "915",
+        "AREA_GEO": "36.3469056058"
+    },
+    {
+        "mun": "Zunil",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "916",
+        "AREA_GEO": "77.470794491"
+    },
+    {
+        "mun": "Colomba",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "917",
+        "AREA_GEO": "205.720151013"
+    },
+    {
+        "mun": "San Francisco La Unión",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "918",
+        "AREA_GEO": "16.8906019283"
+    },
+    {
+        "mun": "El Palmar",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "919",
+        "AREA_GEO": "175.919193786"
+    },
+    {
+        "mun": "Coatepeque",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "920",
+        "AREA_GEO": "418.60144307"
+    },
+    {
+        "mun": "Génova",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "921",
+        "AREA_GEO": "168.349022477"
+    },
+    {
+        "mun": "Flores Costa Cuca",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "922",
+        "AREA_GEO": "72.4711280249"
+    },
+    {
+        "mun": "La Esperanza",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "923",
+        "AREA_GEO": "12.2512572277"
+    },
+    {
+        "mun": "Palestina de los Altos",
+        "cod_dep": "9",
+        "depto": "Quetzaltenango",
+        "cod_mun": "924",
+        "AREA_GEO": "36.0308511107"
+    }
+]

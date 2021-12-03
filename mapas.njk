@@ -48,6 +48,38 @@ permalink: "mapas/index.html"
 							<div class="flex-row-fluid ml-lg-8">
 
                                 <div id='map' style='height: 700px;'></div>
+
+								<br>
+								<input type="button" id="mostrarTabla" class="card text-white text-center col-12 w-100" style="align-items:center;background:#1aac8a;justify-content:center;padding:1rem 0;border: 1px solid #1aac8a!important" value="Ver datos en tabla" onclick="mostrarTabla()"/>
+								<br>
+								<table width="100%">
+									<tr id="tabinith" style="display:none" class="tablehead tabinith">
+										<th class="text-center">Municipio</th>
+										<th class="text-center">Departamento</th>
+										<th class="text-center">Area Geográfica (Km<sup>2</sup>)</th>
+									</tr>
+									{% for item in collections.muns %}
+									{% if item.data.muns.cod_dep == 1%}
+									<tr id="tabinit" class="tabinit" style="display:none" class="tablecont">
+										<td class="tablecont text-center">{{item.data.muns.mun}}</td>
+										<td class="tablecont text-center">{{item.data.muns.depto}}</td>
+										<td class="tablecont text-center">{{item.data.muns.AREA_GEO}}</td>
+									</tr>
+									{% endif %}
+									{% if item.data.muns.cod_dep != 1%}
+									<tr id="tabocult" class="tabocult" style="display:none" class="tablecont">
+										<td class="tablecont text-center">{{item.data.muns.mun}}</td>
+										<td class="tablecont text-center">{{item.data.muns.depto}}</td>
+										<td class="tablecont text-center">{{item.data.muns.AREA_GEO}}</td>
+									</tr>
+									{% endif %}
+									{% endfor %}
+								</table>
+								<br>
+								<input type="button" id="mostrarmasTabla" class="card text-white text-center col-12 w-100" style="display:none;align-items:center;background:#1aac8a;justify-content:center;padding:1rem 0;border: 1px solid #1aac8a!important" value="Ver más" onclick="mostrarmasTabla()"/>
+								<br>
+
+								
                             </div>
 							<!--end::Layout-->
 						</div>
@@ -100,5 +132,58 @@ permalink: "mapas/index.html"
 <script src="/layers/municipio.js"></script>
 <script src="/layers/guatemala.js"></script>
 <script src="/assets/js/mapa.js"></script>
+
+<!--SCRIPTS DE LA TABLA-->
+<script type="">
+									
+	function mostrarTabla(){
+		tablainh = document.getElementById("tabinith");
+		boton2 = document.getElementById("mostrarmasTabla");
+		var filastabla = document.querySelectorAll('#tabinit');
+
+		var masfilastabla = document.querySelectorAll('#tabocult');
+		
+		if(tablainh.style.display == "none"){
+			tablainh.style.display = "table-row";
+			boton2.style.display = "block";
+			for(var i=0; i<filastabla.length; i++){
+				filastabla[i].style.display= "table-row";
+			}
+			document.getElementById("mostrarTabla").value = "Ocultar Tabla";
+		}
+		else{
+			tablainh.style.display="none";
+			boton2.style.display = "none";
+			for(var i=0; i<filastabla.length; i++){
+				filastabla[i].style.display= "none";
+			}
+			for(var i=0; i<masfilastabla.length; i++){
+				masfilastabla[i].style.display= "none";
+			}
+			boton2.value="Ver más";
+			document.getElementById("mostrarTabla").value = "Ver datos en tabla";
+		}
+		
+	}
+
+	function mostrarmasTabla(){
+		var masfilastabla = document.querySelectorAll('#tabocult');
+		
+		if(masfilastabla[0].style.display == "none"){
+			for(var i=0; i<masfilastabla.length; i++){
+				masfilastabla[i].style.display= "table-row";
+			}
+			document.getElementById("mostrarmasTabla").value = "Ver menos";
+		}
+		else{
+			for(var i=0; i<masfilastabla.length; i++){
+				masfilastabla[i].style.display= "none";
+			}
+			document.getElementById("mostrarmasTabla").value = "Ver más";
+		}
+
+	}
+
+</script>
 
 {% endblock %}
