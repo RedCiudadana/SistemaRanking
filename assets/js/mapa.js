@@ -111,7 +111,7 @@ map.on('drag', function() {
   map.panInsideBounds(bounds, { animate: false });
 });
 
-var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+var osmUrl='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 var osmAttrib='Se agradecen los datos del mapa aca...';
 var osm = new L.TileLayer(osmUrl, {minZoom: 3, maxZoom: 8, attribution: osmAttrib});
 map.addLayer(osm);
