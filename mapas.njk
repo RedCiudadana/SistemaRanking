@@ -11,6 +11,17 @@ permalink: "mapas/index.html"
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- CSS only -->
+<link href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+
+
 {% endblock %}
 
 {% block content %}
@@ -47,37 +58,58 @@ permalink: "mapas/index.html"
 							<!--begin::Layout-->
 							<div class="flex-row-fluid ml-lg-8">
 
-                                <div id='map' style='height: 700px;'></div>
+								<div class="tabset">
 
-								<br>
-								<input type="button" id="mostrarTabla" class="card text-white text-center col-12 w-100" style="align-items:center;background:#1aac8a;justify-content:center;padding:1rem 0;border: 1px solid #1aac8a!important" value="Ver datos en tabla" onclick="mostrarTabla()"/>
-								<br>
-								<table width="100%">
-									<tr id="tabinith" style="display:none" class="tablehead tabinith">
-										<th class="text-center">Municipio</th>
-										<th class="text-center">Departamento</th>
-										<th class="text-center">Area Geográfica (Km<sup>2</sup>)</th>
-									</tr>
-									{% for item in collections.muns %}
-									{% if item.data.muns.cod_dep == 1%}
-									<tr id="tabinit" class="tabinit" style="display:none" class="tablecont">
-										<td class="tablecont text-center">{{item.data.muns.mun}}</td>
-										<td class="tablecont text-center">{{item.data.muns.depto}}</td>
-										<td class="tablecont text-center">{{item.data.muns.AREA_GEO}}</td>
-									</tr>
-									{% endif %}
-									{% if item.data.muns.cod_dep != 1%}
-									<tr id="tabocult" class="tabocult" style="display:none" class="tablecont">
-										<td class="tablecont text-center">{{item.data.muns.mun}}</td>
-										<td class="tablecont text-center">{{item.data.muns.depto}}</td>
-										<td class="tablecont text-center">{{item.data.muns.AREA_GEO}}</td>
-									</tr>
-									{% endif %}
-									{% endfor %}
-								</table>
-								<br>
-								<input type="button" id="mostrarmasTabla" class="card text-white text-center col-12 w-100" style="display:none;align-items:center;background:#1aac8a;justify-content:center;padding:1rem 0;border: 1px solid #1aac8a!important" value="Ver más" onclick="mostrarmasTabla()"/>
-								<br>
+									<!-- Tab 1 -->
+									<input type="radio" name="tabset" id="tab1" aria-controls="mapa" checked>
+									<label for="tab1">Mapa</label>
+									<!-- Tab 2 -->
+									<input type="radio" name="tabset" id="tab2" aria-controls="tabla">
+									<label for="tab2">Tabla</label>
+									<!-- Tab 3 -->
+
+									<div class="tab-panels">
+										<section id="mapa" class="tab-panel">
+											<div id='map' style='height: 700px;'></div>
+										</section>
+										<section id="tabla" class="tab-panel">
+											<div>
+												<br>											
+												<table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+													<thead>
+														<tr >
+															<th class="text-center">Municipio</th>
+															<th class="text-center">Departamento</th>
+															<th class="text-center">Area Geográfica (Km<sup>2</sup>)</th>
+														</tr>
+													</thead>
+													<tbody>
+													{% for item in collections.muns %}
+													<tr >
+														<td class="tablecont text-center">{{item.data.muns.mun}}</td>
+														<td class="tablecont text-center">{{item.data.muns.depto}}</td>
+														<td class="tablecont text-center">{{item.data.muns.AREA_GEO}}</td>
+													</tr>
+													{% endfor %}
+													</tbody>
+												</table>
+												
+												<script src = "http://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js" defer ></script>
+
+												<script>
+													$(document).ready(function () {
+													$('#dtBasicExample').DataTable();
+													$('.dataTables_length').addClass('bs-select');
+													});
+												</script>
+											</div>
+										</section>
+									</div>
+
+									
+                                
+
+								</div>
 
 								
                             </div>
