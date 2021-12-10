@@ -1,0 +1,189 @@
+[
+    {
+        "Id": "1",
+        "Temática": "Gestión Municipal",
+        "Indicadores": "Ranking Municipal",
+        "Fuente": "SEGEPLAN",
+        "url": "/mapas/m1/index.html" 
+    },
+    {
+        "Id": "2",
+        "Temática": "Transparencia",
+        "Indicadores": "Acceso a la información pública",
+        "Fuente": "PDH",
+        "url": "/mapas/m2/index.html" 
+    },
+    {
+        "Id": "3",
+        "Temática": "Desnutrición",
+        "Indicadores": "Desnutrición Crónica",
+        "Fuente": "MSPAS",
+        "url": "/mapas/m3/index.html" 
+    },
+    {
+        "Id": "4",
+        "Temática": "Desnutrición",
+        "Indicadores": "Desnutrición Aguda",
+        "url": "/mapas/m4/index.html" 
+    },
+    {
+        "Id": "5",
+        "Temática": "Pobreza",
+        "Indicadores": "Índice de pobreza Multidimensional"
+    },
+    {
+        "Id": "6",
+        "Temática": "Educación",
+        "Indicadores": "Desempeño de Escuelas Municipales - Mate"
+    },
+    {
+        "Id": "7",
+        "Temática": "Educación",
+        "Indicadores": "Desempeño de Escuelas Municipales - Lenguage"
+    },
+    {
+        "Id": "8",
+        "Temática": "Finanzas",
+        "Indicadores": "Presupuesto Municipal"
+    },
+    {
+        "Id": "9",
+        "Temática": "Finanzas",
+        "Indicadores": "Ejecución Presupuestaria"
+    },
+    {
+        "Id": "10",
+        "Temática": "Finanzas",
+        "Indicadores": "Ingresos Municipales"
+    },
+    {
+        "Id": "11",
+        "Temática": "Gestión Municipal",
+        "Indicadores": "Corporación Municipal"
+    },
+    {
+        "Id": "12",
+        "Temática": "Población",
+        "Indicadores": "Cuadro A1 - Población total por sexo, grupos quinquenales de edad y área"
+    },
+    {
+        "Id": "13",
+        "Temática": "Población",
+        "Indicadores": "Cuadro A2 - Población según parentesco con el jefe(a) del hogar"
+    },
+    {
+        "Id": "14",
+        "Temática": "Población",
+        "Indicadores": "Cuadro A3 - Población de 10 años y más por estado conyugal"
+    },
+    {
+        "Id": "15",
+        "Temática": "Población",
+        "Indicadores": "Cuadro A4 - Población total por lugar de nacimiento y lugar de residencia en abril del 2013"
+    },
+    {
+        "Id": "16",
+        "Temática": "Población",
+        "Indicadores": "Cuadro A5 - Población total por pueblos"
+    },
+    {
+        "Id": "17",
+        "Temática": "Población",
+        "Indicadores": "Cuadro A6 - Población maya por comunidad lingüística"
+    },
+    {
+        "Id": "18",
+        "Temática": "Población",
+        "Indicadores": "Cuadro A7 - Población de 4 años y más por idioma materno"
+    },
+    {
+        "Id": "19",
+        "Temática": "Población",
+        "Indicadores": "Cuadro A8 - Población de 4 años y más, según dificultades para ver, oír, caminar o subir escaleras, recordar o concentrarse, cuidado personal o comunicarse"
+    },
+    {
+        "Id": "20",
+        "Temática": "Educación",
+        "Indicadores": "Cuadro A9 - Población de 4 años y más por nivel educativo"
+    },
+    {
+        "Id": "21",
+        "Temática": "Educación",
+        "Indicadores": "Cuadro A10 - Población de 4 a 29 años que no asiste a un establecimiento educativo por causa principal de inasistencia"
+    },
+    {
+        "Id": "22",
+        "Temática": "Educación",
+        "Indicadores": "Cuadro A11 - Población de 7 años o más por alfabetismo, asistencia escolar y lugar de estudio"
+    },
+    {
+        "Id": "23",
+        "Temática": "Economía",
+        "Indicadores": "Cuadro A12 - Población de 7 años o más por uso de celular, computadora y/o internet"
+    },
+    {
+        "Id": "24",
+        "Temática": "Economía",
+        "Indicadores": "Cuadro A13 - Población de 15 años y más, económicamente activa e inactiva, condición de inactividad y lugar de trabajo"
+    },
+    {
+        "Id": "25",
+        "Temática": "Salud",
+        "Indicadores": "Cuadro A14 - Mujeres de 15 años y más, número de hijos nacidos vivos, número de hijos vivos, y edad de la mujer al nacimiento de su primer hijo"
+    },
+    {
+        "Id": "26",
+        "Temática": "Hogar",
+        "Indicadores": "Cuadro B1 - Hogares por tipo de tenencia de la vivienda, sexo del propietario de la vivienda, y sexo de la persona que toma las principales decisiones en el hogar"
+    },
+    {
+        "Id": "27",
+        "Temática": "Hogar",
+        "Indicadores": "Cuadro B2 - Hogares por fuente principal de agua para consumo"
+    },
+    {
+        "Id": "28",
+        "Temática": "Hogar",
+        "Indicadores": "Cuadro B3 - Hogares por tipo y uso de servicio sanitario"
+    },
+    {
+        "Id": "29",
+        "Temática": "Hogar",
+        "Indicadores": "Cuadro B4 - Hogares según tipo de alumbrado, fuente principal de energía para cocinar y disponibilidad de cuarto exclusivo para cocinar"
+    },
+    {
+        "Id": "30",
+        "Temática": "Hogar",
+        "Indicadores": "Cuadro B5 - Equipamiento del hogar"
+    },
+    {
+        "Id": "31",
+        "Temática": "Hogar",
+        "Indicadores": "Cuadro B6 - Hogares por forma principal de eliminación de la basura"
+    },
+    {
+        "Id": "32",
+        "Temática": "Hogar",
+        "Indicadores": "Cuadro B7 - Hogares por número de cuartos y dormitorios"
+    },
+    {
+        "Id": "33",
+        "Temática": "Hogar",
+        "Indicadores": "Cuadro B8 - Tipología de hogar"
+    },
+    {
+        "Id": "34",
+        "Temática": "Vivienda",
+        "Indicadores": "Cuadro C1 - Tipo de vivienda y condición de ocupación"
+    },
+    {
+        "Id": "35",
+        "Temática": "Vivienda",
+        "Indicadores": "Cuadro C2 - Viviendas particulares por material predominante en las paredes exteriores y en el techo"
+    },
+    {
+        "Id": "36",
+        "Temática": "Vivienda",
+        "Indicadores": "Cuadro C3 - Viviendas particulares por material predominante en el piso"
+    }
+]
