@@ -76,65 +76,57 @@ permalink: "mapas/m1/index.html"
 									</div>
 								</div>
 
-								<div class="tabset">
-
-									<!-- Tab 1 -->
-									<input type="radio" name="tabset" id="tab1" aria-controls="mapa" checked>
-									<label for="tab1">Mapa</label>
-									<!-- Tab 2 -->
-									<input type="radio" name="tabset" id="tab2" aria-controls="tabla">
-									<label for="tab2">Tabla</label>
-									<!-- Tab 3 -->
-									
-
-									<div class="tab-panels">
-										<section id="mapa" class="tab-panel">
-											<div id='map' style='height: 700px;'></div>
-										</section>
-										<section id="tabla" class="tab-panel">
-											<div>
-												<br>											
-												<table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
-													<thead>
-														<tr >
-															<th class="text-center">Municipio</th>
-															<th class="text-center">Departamento</th>
-															<th class="text-center">Area Geográfica (Km<sup>2</sup>)</th>
-														</tr>
-													</thead>
-													<tbody>
-													{% for item in collections.muns %}
-													<tr >
-														<td class="tablecont text-center">{{item.data.muns.mun}}</td>
-														<td class="tablecont text-center">{{item.data.muns.depto}}</td>
-														<td class="tablecont text-center">{{item.data.muns.AREA_GEO}}</td>
-													</tr>
-													{% endfor %}
-													</tbody>
-												</table>
-												
-												<script src = "//cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js" defer ></script>
-
-												<script>
-													$(document).ready(function () {
-													$('#dtBasicExample').DataTable({
-															"language":{
-																"url":"//cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"
-																
-															},
-															"responsive": true
-														});
-													$('.dataTables_length').addClass('bs-select');
-													});
-												</script>
-											</div>
-										</section>
+								<div class="tab_content_container">
+									<div id="mapa" class="tab_content tab_content_active">
+										<div id='map' style='height: 700px;'></div>
 									</div>
+									<div id="tabla" class="tab_content tab_content_active">
+										<div>
+											<br>											
+											<table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+												<thead>
+													<tr >
+														<th class="text-center">Municipio</th>
+														<th class="text-center">Departamento</th>
+														<th class="text-center">Area Geográfica (Km<sup>2</sup>)</th>
+													</tr>
+												</thead>
+												<tbody>
+												{% for item in collections.muns %}
+												<tr >
+													<td class="tablecont text-center">{{item.data.muns.mun}}</td>
+													<td class="tablecont text-center">{{item.data.muns.depto}}</td>
+													<td class="tablecont text-center">{{item.data.muns.AREA_GEO}}</td>
+												</tr>
+												{% endfor %}
+												</tbody>
+											</table>
+											
+											<script src = "//cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js" defer ></script>
 
-									
-                                
-
+											<script>
+												$(document).ready(function () {
+												$('#dtBasicExample').DataTable({
+														"language":{
+															"url":"//cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"
+															
+														},
+														"responsive": true
+													});
+												$('.dataTables_length').addClass('bs-select');
+												});
+											</script>
+										</div>
+									</div>
 								</div>
+								<ul class="tabs">
+									<li><a href="javascript:void(0); return false;" rel="#tabcontent1" class="tab active">TAB 1</a></li>
+									<li><a href="javascript:void(0); return false;" rel="#tabcontent2" class="tab">TAB 2</a></li>
+									<li><a href="javascript:void(0); return false;" rel="#tabcontent3" class="tab">TAB 3</a></li>
+									<li><a href="javascript:void(0); return false;" rel="#tabcontent4" class="tab">TAB 4</a></li>
+									<li><a href="javascript:void(0); return false;" rel="#tabcontent5" class="tab">TAB 5</a></li>
+								</ul>
+
 
 								
                             </div>
