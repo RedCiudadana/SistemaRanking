@@ -101,6 +101,13 @@ var map = L.map('map').setView([lat, lng], zoom)
 map.options.minZoom = 7;
 map.options.maxZoom = 11;
 
+map.touchZoom.disable();
+map.doubleClickZoom.disable();
+map.scrollWheelZoom.disable();
+map.boxZoom.disable();
+map.keyboard.disable();
+$(".leaflet-control-zoom").css("visibility", "hidden");
+
 //limites del mapa para no tener mapa infinito
 var southWest = L.latLng(17.926475979176438, -92.4169921875),
 northEast = L.latLng(13.07947827722643, -88.04443359375),
@@ -112,7 +119,7 @@ map.on('drag', function() {
 });
 
 var osmUrl='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-var osmAttrib='Se agradecen los datos del mapa aca...';
+var osmAttrib='SEGEPLAN';
 var osm = new L.TileLayer(osmUrl, {minZoom: 3, maxZoom: 8, attribution: osmAttrib});
 map.addLayer(osm);
 
