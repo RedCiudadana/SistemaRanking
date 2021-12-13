@@ -6,6 +6,8 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy('layers');
 
+    eleventyConfig.addPassthroughCopy('descargables');
+
     eleventyConfig.addCollection("databier", function(collectionApi) {
         return collectionApi.getFilteredByTag('databier');
     });
