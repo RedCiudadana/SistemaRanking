@@ -93,13 +93,17 @@ L.mask = function (latLngs, options) {
 
 var lat = 15.75277501902558;
 var lng =  -90.368;
-var zoom =  8;
+var zoom =  7.75;
 
 
-var map = L.map('map').setView([lat, lng], zoom)
-//zoom maximo y minimo
-map.options.minZoom = 7;
-map.options.maxZoom = 11;
+//var map = L.map('map').setView([lat, lng], zoom);
+
+var map = L.map('map', {
+  center: [lng, lat],
+  zoom: zoom,
+  zoomSnap: 0.25,
+	dragging: false
+});
 
 map.touchZoom.disable();
 map.doubleClickZoom.disable();
@@ -123,7 +127,14 @@ var osmAttrib='SEGEPLAN';
 var osm = new L.TileLayer(osmUrl, {minZoom: 3, maxZoom: 8, attribution: osmAttrib});
 map.addLayer(osm);
 
-map.setView(new L.LatLng(lat, lng), zoom);
+//solucion temporal al responsive
+if(screen.width>400){
+  map.setView(new L.LatLng(lat, lng), zoom);
+}
+else{
+  map.setView(new L.LatLng(lat, lng), 7);
+}
+
 
 // transform geojson coordinates into an array of L.LatLng
 var coordinates = guatemala.features[0].geometry.coordinates[0];
@@ -136,10 +147,31 @@ L.mask(latLngs).addTo(map);
 
 var mundata = L.geoJson(mundata, {
   style: style,
-  onEachFeature: onEachFeature
+  onEachFeature: (function(feature, layer) {
+    layer.on('mouseover', function() {
+      //you bind the popup here, you can acces any property of your Geojson with feature.properties.propertyname
+      layer.bindPopup('<p>' + feature.properties.mun + ' / ' + feature.properties.depto + '</p>').openPopup();
+    });
+    layer.on('click', function() {
+      //you bind the popup here, you can acces any property of your Geojson with feature.properties.propertyname
+      window.location="https://www.google.com"
+    });
+    layer.on("mouseout", function(evt) { this.closePopup(); });
+  })
 }).addTo(map);
 
+/*L.geoJson('mundata', {
+  onEachFeature: function(feature, layer) {
+      layer.on('click', function() {
+          //you bind the popup here, you can acces any property of your Geojson with feature.properties.propertyname
+          layer.bindPopup('<p>' + feature.properties.mun + '</p><p>' + feature.properties.depto + '</p>').openPopup();
+      });
+  }
+});*/
+
 //POP UP DE CADA FEATURE
+//POP UP MOSTRADO ARRIBA AL LADO DERECHO
+/*
 var info = L.control();
 
 info.onAdd = function (map) {
@@ -155,7 +187,7 @@ info.update = function (props) {
 };
 
 info.addTo(map);
-
+*/
 
 var legend = L.control({position: 'bottomright'});
 
