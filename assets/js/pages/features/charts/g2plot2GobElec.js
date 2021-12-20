@@ -17,32 +17,32 @@ var intg = parseFloat(intg1.innerHTML);
 
 const data = [
     {
-      "Categoría": "Prod de Datos",
+      "Categoría": "Presencia en Internet",
       "Puntaje": pres,
       "type": "Puntaje"
     },
     {
-      "Categoría": "Disponibilidad",
+      "Categoría": "Emergente",
       "Puntaje": emer,
       "type": "Puntaje"
     },
     {
-      "Categoría": "Plataformas",
+      "Categoría": "Ampliado",
       "Puntaje": amp,
       "type": "Puntaje"
     },
     {
-      "Categoría": "Acceso",
+      "Categoría": "Interactivo",
       "Puntaje": inte,
       "type": "Puntaje"
     },
     {
-      "Categoría": "Actualización",
+      "Categoría": "Transaccional",
       "Puntaje": tran,
       "type": "Puntaje"
     },
     {
-      "Categoría": "Licencia",
+      "Categoría": "Integrado",
       "Puntaje": intg,
       "type": "Puntaje"
     },

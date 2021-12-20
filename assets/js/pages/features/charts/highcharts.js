@@ -90,7 +90,13 @@ Highcharts.chart('container', {
               connectorAllowed: false
           },
           color: '#40c7a7'
+          
       }
+      
+  },
+
+  credits: {
+    enabled: false
   },
 
 
