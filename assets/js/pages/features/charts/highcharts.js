@@ -1,77 +1,117 @@
-var recd1 = document.getElementById('recd'); 
-var disp1 = document.getElementById('disp'); 
-var plat1 = document.getElementById('plat'); 
-var acc1 = document.getElementById('acc'); 
-var per1 = document.getElementById('per'); 
-var lic1 = document.getElementById('lic'); 
-var form1 = document.getElementById('form'); 
-var leg1 = document.getElementById('leg'); 
-var gob1 = document.getElementById('gob'); 
 
-
-var recd = parseFloat(recd1.innerHTML);
-var disp = parseFloat(disp1.innerHTML);
-var plat = parseFloat(plat1.innerHTML);
-var acc = parseFloat(acc1.innerHTML);
-var per = parseFloat(per1.innerHTML); 
-var lic = parseFloat(lic1.innerHTML);
-var form = parseFloat(form1.innerHTML);
-var leg = parseFloat(leg1.innerHTML);
-var gob = parseFloat(gob1.innerHTML);
-
-
+Highcharts.setOptions({
+  lang: {
+          loading: 'Cargando...',
+          months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+          weekdays: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+          shortMonths: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+          exportButtonTitle: "Exportar",
+          printButtonTitle: "Importar",
+          rangeSelectorFrom: "Desde",
+          rangeSelectorTo: "Hasta",
+          rangeSelectorZoom: "Período",
+          downloadPNG: 'Descargar imagen PNG',
+          downloadJPEG: 'Descargar imagen JPEG',
+          downloadPDF: 'Descargar imagen PDF',
+          downloadSVG: 'Descargar imagen SVG',
+          printChart: 'Imprimir',
+          resetZoom: 'Reiniciar zoom',
+          resetZoomTitle: 'Reiniciar zoom',
+          thousandsSep: ",",
+          decimalPoint: '.',
+          viewFullscreen: "Ver en pantalla completa",
+          viewData: "Ver datos de tabla",
+          downloadCSV: 'Descargar CSV',
+          downloadXLS: 'Descargar XLS',
+          category: "Categoría"
+      }        
+});
 
 Highcharts.chart('container', {
-    chart: {
-      type: 'column'
-    },
-    title: {
-      text: 'Indicadores de Evaluación - Datos Abiertos 2021 - Global '
-    },
-    subtitle: {
-      text: ''
-    },
-    xAxis: {
-      categories: [
-        'Prod de Datos',
-        'Disponibilidad',
-        'Plataformas',
-        'Acceso',
-        'Actualización',
-        'Licencia',
-        'Formatos',
-        'Legibilidad',
-        'Gobernanza',
-      ],
-      crosshair: true
-    },
-    yAxis: {
-      min: 0,
-      max: 8,
-      title: {
-        text: 'Puntaje'
-      }
-    },
-    tooltip: {
-      headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-      pointFormat: '<tr><td style="color:{series.color};padding:1rem">{series.name}: </td>' +
-        '<td style="padding:1rem"><b>{point.y:.1f} puntos</b></td></tr>',
-      footerFormat: '</table>',
-      shared: true,
-      useHTML: true
-    },
-    plotOptions: {
-      column: {
-        pointPadding: 0.2,
-        borderWidth: 0
-      }
-    },
-    series: [{
-      name: 'Puntaje Actual',
-      data: [recd, disp, plat, acc, per, lic, form, leg, gob],
-      color: '#1aac8a'
-    }
 
-    ]
-  });
-  
+  title: {
+      text: 'Puntaje por Institución 2021'
+  },
+
+  subtitle: {
+      text: '--'
+  },
+
+  yAxis: {
+      title: {
+          text: 'Puntaje'
+      }
+  },
+
+  xAxis: {
+    categories: [
+      'CIV',
+      'MAGA',
+      'MARN',
+      'MCD',
+      'MEM',
+      'MIDES',
+      'MINDEF',
+      'MINECO',
+      'MINEDUC',
+      'MINEX',
+      'MINFIN',
+      'MINGOB',
+      'MINTRAB',
+      'MSPAS',
+      'SAA',
+      'SAAS',
+      'SBS',
+      'SCEP',
+      'SCSPR',
+      'SEGEPLAN',
+      'SENABED',
+      'SENACYT',
+      'SEPAZ',
+      'SEPREM',
+      'SESAN',
+      'SGP',
+      'SIE',
+      'SOSEP',
+      'SPP',
+      'SVET',
+    ],
+  },
+
+  legend: {
+      layout: 'vertical',
+      align: 'right',
+      verticalAlign: 'middle'
+  },
+
+  plotOptions: {
+      series: {
+          label: {
+              connectorAllowed: false
+          },
+          color: '#40c7a7'
+      }
+  },
+
+
+  series: [{
+      name: 'Institución',
+      data: [90,85,80,75,70,65,60,55,50,45,40,35,30,25,20,15,10,5,0,90,85,80,75,70,65,60,55,50,45,40]
+  }],
+
+  responsive: {
+      rules: [{
+          condition: {
+              maxWidth: 500
+          },
+          chartOptions: {
+              legend: {
+                  layout: 'horizontal',
+                  align: 'center',
+                  verticalAlign: 'bottom'
+              }
+          }
+      }]
+  }
+
+});
