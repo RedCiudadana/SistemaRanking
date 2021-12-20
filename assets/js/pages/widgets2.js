@@ -19,8 +19,12 @@ var KTWidgets = function () {
 
 
     var ind = ind1.innerHTML;
+    if(ind<=8){
+        ind=((ind*100)/7);
+        ind= ind.toFixed(1);
+    }
 
-
+    
 
 
     // General Controls
