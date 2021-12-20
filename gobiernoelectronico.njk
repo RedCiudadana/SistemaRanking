@@ -70,7 +70,7 @@ permalink: "gobelec/{{gobelec.id}}/index.html"
 										<div class=" card card-custom " style="padding-top:5%;">
 											<br>
 											<h3 class="text-center">Indicador 2021</h3>
-											<p id="indicador" style="display:none">{{gobelec.Indicador_2021}}</p>
+											<p id="indicador" style="display:none">{{gobelec.Puntaje}}</p>
 
 											<div id="kt_mixed_widget_18_chart" style="height: 200px"></div>
 										</div>
@@ -80,14 +80,14 @@ permalink: "gobelec/{{gobelec.id}}/index.html"
 
 										<div class="card-body p-0 d-flex rounded" style="padding-top:1rem;background:radial-gradient(94.09% 94.09% at 50% 50%, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0) 100%), #fff; margin-bottom:1rem;height:100%!important;">
 											<div class="row m-0">
-												<p id="indicador" style="display:none">{{gobelec.Indicador_2021}}</p>
+												<p id="indicador" style="display:none">{{gobelec.Puntaje}}</p>
 												<div class=" p-0">
 													<div class="card card-custom card-stretch card-transparent card-shadowless">
 														<div class="card-body d-flex flex-column justify-content-center">
 															<h3 class="font-size-h4 font-size-h1-sm font-size-h4-lg font-size-h4-lg font-size-h1-xl mb-0  font-weight-bolder text-center" >
-																Indicador de la Institución: &nbsp
+																Puntaje de la Institución: &nbsp
 																							</h3>
-															<h3 class="text-center" style="font-size:50px;padding-top:5px;font-weight:bold">{{gobelec.Indicador_2021}}</h3>
+															<h3 class="text-center" style="font-size:50px;padding-top:5px;font-weight:bold">{{gobelec.Puntaje}}</h3>
 														</div>
 													</div>
 												</div>
@@ -137,47 +137,19 @@ permalink: "gobelec/{{gobelec.id}}/index.html"
 										</div>
 
 										<div style="padding:2rem;background-color: #fff" id="container2"></div>
-										<!--begin::Header-->
-										<!--div class="card-header border-0 py-5">
-											<h3 class="card-title font-weight-bolder text-white">Índice de datos abiertos 2021 -&nbsp{{databier.Institucion}}&nbsp({{databier.id_institucion}}) </h3>
-										</div-->
-										<!--end::Header-->
-										<!--begin::Body-->
-										<div>
 
-											<p id="recd" style="display:none">{{gobelec.Recoleccion_y_produccion_de_datos}} </p> 
-											<p id="disp" style="display:none">{{gobelec.Disponibilidad_en_linea}} </p>
-											<p id="plat" style="display:none">{{gobelec.Plataformas}} </p>
-											<p id="acc" style="display:none">{{gobelec.Acceso}} </p>
-											<p id="per" style="display:none">{{gobelec.Periodicidad_de_actualizacion}} </p>
-											<p id="lic" style="display:none">{{gobelec.Licencia}} </p>
-											<p id="form" style="display:none">{{gobelec.Formatos}} </p>
-											<p id="leg" style="display:none">{{gobelec.Legibilidad}} </p>
-											<p id="gob" style="display:none">{{gobelec.Gobernanza}} </p>
-											<!--begin::Chart-->
-											<!--div id="kt_mixed_widget_5_chart" style="height: 200px"></div-->
-											<!--end::Chart-->
-											<!--begin::Stats-->
-											<div class="">
-											<!--begin::Row-->
-											<div class="row m-0">
-											<!--div class="col px-8 py-6 mr-8">
-												<div class="font-size-sm text-muted font-weight-bold">Average Sale</div>
-												<div class="font-size-h4 font-weight-bolder">$650</div>
-											</div-->
-											</div>
-											<!--end::Row-->
-											</div>
-											<!--end::Stats-->
-										</div>
-										<!--end::Body-->
-										</div>
-										<!--end::Mixed Widget 5-->
+										<p id="pres" style="display:none">{{gobelec.Presencia_en_Internet}} </p> 
+										<p id="emer" style="display:none">{{gobelec.Emergente}} </p>
+										<p id="amp" style="display:none">{{gobelec.Ampliado}} </p>
+										<p id="inte" style="display:none">{{gobelec.Interactivo}} </p>
+										<p id="tran" style="display:none">{{gobelec.Transaccional}} </p>
+										<p id="intg" style="display:none">{{gobelec.Integrado}} </p>
+
 									</div>
 
 
 
-									<div class="col-xl-12" >
+									<div class="col-xl-12 p-0" >
 
 										<!--begin::Section-->
 										<div class=" mb-8" >
@@ -190,7 +162,7 @@ permalink: "gobelec/{{gobelec.id}}/index.html"
 											<!--h4 class="font-weight-bold text-dark mb-4">Extended License</h4-->
 											<div class="text-dark-50 line-height-lg">
 												<p>AQUI IRIAN LAS RECOMENDACIONES</p>
-												<p>{{databier.Recomendaciones}}</p>
+												<p>{{gobelec.Recomendaciones}}</p>
 												<!--a class="font-weight-bold" href="#">Read More</a-->
 											</div>
 											<!--end::Content-->
@@ -255,7 +227,9 @@ permalink: "gobelec/{{gobelec.id}}/index.html"
 <!--end::Global Theme Bundle-->
 
 <!--begin::Page Scripts(used by this page)-->
-<script src="/assets/js/pages/widgets.js"></script>
+<script src="/assets/js/pages/widgets4gobElec.js"></script>
+<script type="text/javascript" src="https://unpkg.com/@antv/g2plot@latest/dist/g2plot.min.js"></script>
+<script  src="/assets/js/pages/features/charts/g2plot2GobElec.js"></script>
 <!--end::Page Scripts-->
 
 {% endblock %}
