@@ -30,6 +30,7 @@ var KTWidgets = function () {
 
     var ind = ind1.innerHTML;
 
+    
     ind=((ind*100)/7);
     ind= ind.toFixed(1);
 

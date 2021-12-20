@@ -1,24 +1,15 @@
 [
     {
-        "2019": "3.6",
-        "id": "2021",
-        "Recoleccion_y_produccion_de_datos": "3.2",
-        "Disponibilidad_en_linea": "2.8",
-        "Plataformas": "3.0",
-        "Acceso": "3.3",
-        "Periodicidad_de_actualizacion": "3.1",
-        "Licencia": "4.3",
-        "Formatos": "1.9",
-        "Legibilidad": "1.9",
-        "Gobernanza": "3.4",
-        "Indicador_2021": "3.2",
-        "Recolección_COVID_19": "2.2",
-        "Disponibilidad _COVID_19": "2.1",
-        "Plataformas _COVID_19": "1.2",
-        "Respuesta_COVID_19": "1.9",
-        "Bajo": "18",
-        "Subio": "8",
-        "Igual": "4",
-        "Tendencia": "Bajo"
+        "id": "2021.0",
+        "Instituciones": "30",
+        "Presencia en Internet": "3.2",
+        "Emergente": "2.8",
+        "Ampliado": "3.0",
+        "Interactivo": "3.3",
+        "Transaccional": "3.1",
+        "Integrado": "4.3",
+        "Indicador2021": "3",
+        "Puntaje": "45"
     }
 ]
+
