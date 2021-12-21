@@ -20,8 +20,8 @@ module.exports = function (eleventyConfig) {
     compromisos.forEach((compromiso) => {
         eleventyConfig.addCollection(compromiso, function (collectionApi) {
 
-            let collection = collectionApi.getFilteredByTags('compgobab').filter(function (item) {
-                return item.data.compgobab.Compromiso === compromiso;
+            let collection = collectionApi.getFilteredByTags('hitos').filter(function (item) {
+                return item.data.hitos.Compromiso === compromiso;
             });
 
             return collection;
