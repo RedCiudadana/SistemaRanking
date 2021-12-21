@@ -1,3 +1,8 @@
+const compromisos = [
+    "Gobierno Digital y Modernización de la Gestión Pública",
+    "Migracion",
+];
+
 module.exports = function (eleventyConfig) {
 
     eleventyConfig.setTemplateFormats("njk");
@@ -12,6 +17,16 @@ module.exports = function (eleventyConfig) {
         return collectionApi.getFilteredByTag('databier');
     });
 
+    compromisos.forEach((compromiso) => {
+        eleventyConfig.addCollection(compromiso, function (collectionApi) {
 
+            let collection = collectionApi.getFilteredByTags('compgobab').filter(function (item) {
+                return item.data.compgobab.Compromiso === compromiso;
+            });
+
+            return collection;
+
+        });
+    });
 
 }
