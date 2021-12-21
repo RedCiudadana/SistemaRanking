@@ -1,31 +1,32 @@
+var avance1 = document.getElementById('avance'); 
+avance1 = avance1.innerHTML
 
+var avance = parseFloat(avance1.innerHTML);
+
+var restante=100 - avance;
 
 const data = [
     {
-      "ins": "CIV",
-      "puntaje": 90
+      "ins": "Avance",
+      "puntaje": 11.11
     },
     {
-      "ins": "MAGA",
-      "puntaje": 85
-    },
-    {
-      "ins": "MARN",
-      "puntaje": 80
+      "ins": "Restante",
+      "puntaje": 98.89
     },
 ];
 
 
 
 
-const { Line } = G2Plot;
-const LinePlot = new Line('container', {
+const { Pie } = G2Plot;
+const LinePlot = new Pie('container', {
   data,
   isGroup: true,
-  xField: 'ins',
-  yField: 'puntaje',
-  seriesField: 'ins',
-  smooth: true,
+  angleField: 'ins',
+  colorField: 'puntaje',
+  radius: 1,
+  innerRadius: 0.6,
   /** 设置颜色 */
   color: ['#1aac8a', '#40c7a7'],
   /** 设置间距 */
