@@ -65,10 +65,10 @@ permalink: "mapas/m1/index.html"
 									<div style="height: 30px;align-items:center;display:flex"><h6 class="font-size-h4 font-size-h1-sm font-size-h4-lg font-size-h4-lg font-size-h1-xl mb-0  font-weight-bolder" style="margin:0">Gestión Ranking Municipal</h6></div>
 									<div id='map' style="height: 700px;"></div>
 								</div>
-								<div id="Datos" class="w3-container tab border" style="display:none;height: 730px;padding:5% 2%">
+								<div id="Datos" class="w3-container tab border" style="display:none;height: 730px;padding:5% 2%;overflow-y:scroll">
 									<div>
 										<br>											
-										<table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+										<table id="tabla" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
 											<thead>
 												<tr >
 													<th class="text-center">Municipio</th>
@@ -91,15 +91,16 @@ permalink: "mapas/m1/index.html"
 
 										<script>
 											$(document).ready(function () {
-											$('#dtBasicExample').DataTable({
+											$('#tabla').DataTable({
 													"language":{
 														"url":"//cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"
 														
 													},
-													"responsive": true
+													"responsive": true,
 												});
 											$('.dataTables_length').addClass('bs-select');
 											});
+											
 										</script>
 									</div>
 								</div>
@@ -115,16 +116,17 @@ permalink: "mapas/m1/index.html"
 										
 									</div>
 								</div>
-								<div id="Compartir" class="w3-container tab border" style="display:none;padding:100px 25%;height: 730px;"> 
-									<img src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-13.png" width="100%">
+								<div id="Compartir" class="w3-container tab border" style="display:none;padding:100px 2%;height: 730px;"> 
+									
 									<div style="text-align:center">
+										<img src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-13.png" >
 										<h2 style="font-weight:bold;font-size:2vw">Copie el siguiente código para compartir la gráfica </h2>
 					
 										
 										<div class="card text-center col-12 d-flex" style="background:#F3F6F9;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important">
 											Código URL:
 											<code>
-											&lt;embed src="https://sistemaranking.redciudadana.org/mapas/m1" type="text/html" height="766px" width="780px" &gt;
+											&lt;embed src="https://sistemaranking.redciudadana.org/mapas/m1" type="text/html" height="666px" width="780px" &gt;
 											</code>
 										</div>
 									</div>

@@ -57,10 +57,10 @@ permalink: "mapas/m1c/index.html"
     <div style="max-height: 30px;align-items:center;display:flex"><h6 class="font-size-h4 font-size-h1-sm font-size-h4-lg font-size-h4-lg font-size-h1-xl mb-0  font-weight-bolder" style="margin:0">Gestión Ranking Municipal</h6></div>
     <div id='map' style="height: 600px;"></div>
 </div>
-<div id="Datos" class="w3-container tab border" style="display:none;height: 630px;width:780px">
+<div id="Datos" class="w3-container tab border" style="display:none;height: 630px;width:780px;overflow-y:scroll">
     <div>
         <br>											
-        <table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+        <table id="tabla" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
             <thead>
                 <tr >
                     <th class="text-center">Municipio</th>
@@ -83,7 +83,7 @@ permalink: "mapas/m1c/index.html"
 
         <script>
             $(document).ready(function () {
-            $('#dtBasicExample').DataTable({
+            $('#tabla').DataTable({
                     "language":{
                         "url":"//cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"
                         
