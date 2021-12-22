@@ -54,4 +54,8 @@ module.exports = function (eleventyConfig) {
         });
     });
 
+    eleventyConfig.addCollection("mapa1", function(collectionApi) {
+        return collectionApi.getFilteredByTag('mapa1');
+    });
+
 }

@@ -1,5 +1,5 @@
 ---
-permalink: "mapas/mp/index.html"
+permalink: "mapas/m1/index.html"
 ---
 
 {% extends "base.njk" %}
@@ -73,15 +73,15 @@ permalink: "mapas/mp/index.html"
 												<tr >
 													<th class="text-center">Municipio</th>
 													<th class="text-center">Departamento</th>
-													<th class="text-center">Area Geográfica (Km<sup>2</sup>)</th>
+													<th class="text-center">Porcentaje de Ranking Municipal (%)</th>
 												</tr>
 											</thead>
 											<tbody>
-											{% for item in collections.muns %}
+											{% for item in collections.mapa1 %}
 											<tr >
-												<td class="tablecont text-center">{{item.data.muns.mun}}</td>
-												<td class="tablecont text-center">{{item.data.muns.depto}}</td>
-												<td class="tablecont text-center">{{item.data.muns.AREA_GEO}}</td>
+												<td class="tablecont text-center">{{item.data.mapa1.municipio}}</td>
+												<td class="tablecont text-center">{{item.data.mapa1.departamento}}</td>
+												<td class="tablecont text-center">{{item.data.mapa1.segeplan2018U}}</td>
 											</tr>
 											{% endfor %}
 											</tbody>
@@ -226,8 +226,8 @@ function openTab(cityName) {
 <!--end::Global Theme Bundle-->
 
 
-<script src="/layers/municipio.js"></script>
+<script src="/layers/rankingm.js"></script>
 <script src="/layers/guatemala.js"></script>
-<script src="/assets/js/mapa.js"></script>
+<script src="/assets/js/mapas/m1.js"></script>
 
 {% endblock %}
