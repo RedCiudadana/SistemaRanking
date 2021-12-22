@@ -125,9 +125,15 @@ permalink: "mapas/m1/index.html"
 										
 										<div class="card text-center col-12 d-flex" style="background:#F3F6F9;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important">
 											Código URL:
-											<code>
+											<code id="textArea">
 											&lt;embed src="https://sistemaranking.redciudadana.org/mapas/m1" type="text/html" height="666px" width="780px" &gt;
 											</code>
+    										
+
+										</div>
+										<br>
+										<div class="card text-center col-3 d-flex " style="background:#1aac8a;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important">
+											<a class="link d-flex text-white" style="margin:auto;align-items:center" href="javascript:copyToClipBoard()"  ><h4>Compartir</h4><img height="20px" width="20px" style="margin-left:4px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-06.png"></a>
 										</div>
 									</div>
 								</div>
@@ -179,6 +185,22 @@ permalink: "mapas/m1/index.html"
 {% endblock %}
 
 {% block body_javascripts %}
+
+<!--FUNCION PARA COPIAR AL TECLADO-->
+<script>
+function copyToClipBoard() {
+
+    var content = document.getElementById('textArea').innerHTML;
+
+    navigator.clipboard.writeText(content)
+        .then(() => {
+        console.log("Text copied to clipboard...")
+    })
+        .catch(err => {
+        console.log('Something went wrong', err);
+    })
+}
+</script>
 
 <script>
 function openTab(cityName) {

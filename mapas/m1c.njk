@@ -123,6 +123,11 @@ permalink: "mapas/m1c/index.html"
                 &lt;embed src="https://sistemaranking.redciudadana.org/mapas/m1" type="text/html" height="666px" width="780px" &gt;
                 </code>
             </div>
+
+            <br>
+            <div class="card text-center col-3 d-flex " style="background:#1aac8a;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important">
+                <a class="link d-flex text-white" style="margin:auto;align-items:center" href="javascript:copyToClipBoard()"  ><h4>Compartir</h4><img height="20px" width="20px" style="margin-left:4px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-06.png"></a>
+            </div>
         </div>
     </div>
 </div>
@@ -134,6 +139,22 @@ permalink: "mapas/m1c/index.html"
     <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Descargar')">Descargar<img height="20px" width="20px" style="margin-left:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png"></button></div>
     <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Compartir')">Compartir<img height="20px" width="20px" style="margin-left:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-10.png"></button></div>	
 </div>
+
+<!--FUNCION PARA COPIAR AL TECLADO-->
+<script>
+function copyToClipBoard() {
+
+    var content = document.getElementById('textArea').innerHTML;
+
+    navigator.clipboard.writeText(content)
+        .then(() => {
+        console.log("Text copied to clipboard...")
+    })
+        .catch(err => {
+        console.log('Something went wrong', err);
+    })
+}
+</script>
 <script>
 function openTab(cityName) {
   var i;
