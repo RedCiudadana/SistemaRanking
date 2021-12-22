@@ -149,9 +149,11 @@ function copyToClipBoard() {
     navigator.clipboard.writeText(content)
         .then(() => {
         console.log("Text copied to clipboard...")
+        window.alert("Texto copiado al portapapeles!");
     })
         .catch(err => {
         console.log('Something went wrong', err);
+        window.alert("Error al copiar!");
     })
 }
 </script>
