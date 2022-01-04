@@ -1,0 +1,87 @@
+[
+    {
+        "id_ods": "1",
+        "ods": "Objetivo 1: Poner fin a la pobreza en todas sus formas en todo el mundo",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-1.svg"
+    },
+    {
+        "id_ods": "2",
+        "ods": "Objetivo 2: Poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-2.svg"
+    },
+    {
+        "id_ods": "3",
+        "ods": "Objetivo 3: Garantizar una vida sana y promover el bienestar para todos en todas las edades",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-3.svg"
+    },
+    {
+        "id_ods": "4",
+        "ods": "Objetivo 4: Garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje durante toda la vida para todos",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-4.svg"
+    },
+    {
+        "id_ods": "5",
+        "ods": "Objetivo 5: Lograr la igualdad entre los géneros y empoderar a todas las mujeres y las niñas",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-5.svg"
+    },
+    {
+        "id_ods": "6",
+        "ods": "Objetivo 6: Garantizar la disponibilidad de agua y su gestión sostenible y el saneamiento para todos",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-6.svg"
+    },
+    {
+        "id_ods": "7",
+        "ods": "Objetivo 7: Garantizar el acceso a una energía asequible, segura, sostenible y moderna para todos",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-7.svg"
+    },
+    {
+        "id_ods": "8",
+        "ods": "Objetivo 8: Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-8.svg"
+    },
+    {
+        "id_ods": "9",
+        "ods": "Objetivo 9: Industria, innovación e infraestructura",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-9.svg"
+    },
+    {
+        "id_ods": "10",
+        "ods": "Objetivo 10: Reducir la desigualdad en y entre los países",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-10.svg"
+    },
+    {
+        "id_ods": "11",
+        "ods": "Objetivo 11: Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-11.svg"
+    },
+    {
+        "id_ods": "12",
+        "ods": "Objetivo 12: Garantizar modalidades de consumo y producción sostenibles",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-12.svg"
+    },
+    {
+        "id_ods": "13",
+        "ods": "Objetivo 13: Adoptar medidas urgentes para combatir el cambio climático y sus efectos",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-13.svg"
+    },
+    {
+        "id_ods": "14",
+        "ods": "Objetivo 14: Conservar y utilizar en forma sostenible los océanos, los mares y los recursos marinos para el desarrollo sostenible",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-14.svg"
+    },
+    {
+        "id_ods": "15",
+        "ods": "Objetivo 15: Gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-15.svg"
+    },
+    {
+        "id_ods": "16",
+        "ods": "Objetivo 16: Promover sociedades, justas, pacíficas e inclusivas",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-16.svg"
+    },
+    {
+        "id_ods": "17",
+        "ods": "Objetivo 17: Revitalizar la Alianza Mundial para el Desarrollo Sostenible",
+        "imagenODS":"https://d296gbxh4k2cui.cloudfront.net/assets/icons/SDG-17.svg"
+    }
+]
