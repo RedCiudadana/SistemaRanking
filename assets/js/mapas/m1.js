@@ -2,14 +2,14 @@ let mapa= new Map();
 mapa.set("Guatemala","");
 
 function getColor(d) {
-  return d > 90 ? '#800026' :
-         d > 80  ? '#BD0026' :
-         d > 70  ? '#E31A1C' :
-         d > 60  ? '#FC4E2A' :
-         d > 50   ? '#FD8D3C' :
-         d > 40   ? '#FEB24C' :
-         d > 30   ? '#FED976' :
-                    '#FFEDA0';
+  return d > 90 ? '#FFEDA0' :
+         d > 80  ? '#FED976' :
+         d > 70  ? '#FEB24C' :
+         d > 60  ? '#FD8D3C' :
+         d > 50   ? '#FC4E2A' :
+         d > 40   ? '#E31A1C' :
+         d > 30   ? '#BD0026' :
+                    '#800026';
 }
 
 function style(feature) {
