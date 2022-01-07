@@ -89,17 +89,20 @@ permalink: "mapas/m1c/index.html"
     </div>
 </div>
 <div id="Descargar" class=" tab border align-self-center" style="display:none;height: 630px;max-width:780px">
-    <div style="max-height:100%">
-        <img src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-12.png" width="100%">
-        <div style="padding:50px 25%;text-align:center">
-            <h2 style="font-weight:bold;font-size:2vw">Descarga los datos en el siguiente enlace </h2>
+    <img src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-12.png" width="100%">
+    <div style="padding:50px 25%;text-align:center">
+        <h2 style="font-weight:bold;font-size:2vw">Descarga los datos en el siguiente enlace </h2>
 
-            
-            <div class="card text-center col-5 d-flex" style="background:#1aac8a;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important">
-                <a class="link d-flex" style="margin:auto;align-items:center;color:#212529" href="/descargables/municipios.json" download="datos.json" ><h4>Descargar</h4><img height="20px" width="20px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png"></a>
+        <div class="d-flex">
+            <div class="card text-center col-5 " style="background:#1aac8a;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important;height:100%">
+                <a class="link d-flex" style="margin:auto;align-items:center" href="/descargables/ranking_municipal.geojson" download="ranking_municipal.json" ><h4>Descargar archivo JSON</h4><img height="20px" width="20px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png"></a>	
             </div>
-            
+            <div class="card text-center col-5 " style="background:#1aac8a;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important;height:100%">
+                <a class="link d-flex" style="margin:auto;align-items:center" href="/descargables/ranking_municipal.csv" download="ranking_municipal.csv" ><h4>Descargar archivo CSV</h4><img height="20px" width="20px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png"></a>
+            </div>
         </div>
+        
+        
     </div>
 </div>
 <div id="Compartir" class="w3-container tab border" style="display:none;padding:100px 2%;height: 630px;width:780px"> 
@@ -127,10 +130,10 @@ permalink: "mapas/m1c/index.html"
 </div>
 
 <div style="display:flex;justify-content:space-around">
-    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Mapa')">Mapa<img height="20px" width="20px" style="margin-left:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-07.png"></button></div>
-    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Datos')">Datos<img height="20px" width="20px" style="margin-left:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-08.png"></button></div>
-    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Descargar')">Descargar<img height="20px" width="20px" style="margin-left:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png"></button></div>
-    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Compartir')">Compartir<img height="20px" width="20px" style="margin-left:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-10.png"></button></div>	
+    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Mapa')"><img height="20px" width="20px" style="margin-right:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-07.png">Mapa</button></div>
+    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Datos')"><img height="20px" width="20px" style="margin-right:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-08.png">Datos</button></div>
+    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Descargar')"><img height="20px" width="20px" style="margin-right:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png">Descargar</button></div>
+    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Compartir')"><img height="20px" width="20px" style="margin-right:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-10.png">Compartir</button></div>
 </div>
 </div>
 <!--FUNCION PARA COPIAR AL TECLADO-->

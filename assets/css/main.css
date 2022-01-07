@@ -859,6 +859,17 @@ button:hover {
   z-index:1000;
 }
 
+.popup-wrapper1 {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index:1000;
+}
+
 .popup {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -894,6 +905,14 @@ button:hover {
 }
 
 .popup-close2 {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.popup-close1 {
   position: absolute;
   top: 5px;
   right: 15px;

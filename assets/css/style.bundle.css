@@ -52889,6 +52889,7 @@ i {
 }
 .card.card-custom.card-stretch.gutter-b {
   height: calc(100% - 25px);
+  max-height: 650px;
 }
 .card.card-custom.card-stretch.card-stretch-half {
   height: 50%;
