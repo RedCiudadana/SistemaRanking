@@ -972,11 +972,21 @@ var KTApexChartsDemo = function () {
 				width: 380,
 				type: 'donut',
 			},
+			legend: {
+				position: 'bottom'
+			},
+			plotOptions: {
+				pie: {
+					donut: {
+						size: '30%'
+					}
+				}
+			},
 			responsive: [{
 				breakpoint: 480,
 				options: {
 					chart: {
-						width: 200
+						width: 300
 					},
 					legend: {
 						position: 'bottom'
