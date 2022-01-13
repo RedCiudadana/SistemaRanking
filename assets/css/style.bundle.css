@@ -58416,8 +58416,8 @@ button {
 
 .btn.btn-info {
   color: #ffffff;
-  background-color: #8950FC;
-  border-color: #8950FC;
+  background-color: #39373d;
+  border-color: #39373d;
 }
 .btn.btn-info i {
   color: #ffffff;
@@ -58436,8 +58436,8 @@ button {
 }
 .btn.btn-info:hover:not(.btn-text):not(:disabled):not(.disabled), .btn.btn-info:focus:not(.btn-text), .btn.btn-info.focus:not(.btn-text) {
   color: #ffffff;
-  background-color: #7337EE;
-  border-color: #7337EE;
+  background-color: #2b2a2e;
+  border-color: #2b2a2e;
 }
 .btn.btn-info:hover:not(.btn-text):not(:disabled):not(.disabled) i, .btn.btn-info:focus:not(.btn-text) i, .btn.btn-info.focus:not(.btn-text) i {
   color: #ffffff;
