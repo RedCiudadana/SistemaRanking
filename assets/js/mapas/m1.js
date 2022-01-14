@@ -2,9 +2,11 @@ let mapa= new Map();
 mapa.set("Guatemala","");
 
 function getColor(d) {
-  return d > 90 ? '#34ab71' :
-         d > 70  ? '#ffcf48' :
-         d > 40   ? '#f18a02' :
+  return d > 80 ? '#34ab71' :
+         d > 60  ? '#ffcf48' :
+         d > 50  ? '#ffcf48' :
+         d > 40  ? '#ffcf48' :
+         d > 20   ? '#f18a02' :
                     '#ea5059';
 }
 
@@ -190,7 +192,7 @@ var legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
-        grades = [0, 40, 70, 90],
+        grades = [0, 20, 40, 50, 60, 80],
         labels = [];
 
     // loop through our density intervals and generate a label with a colored square for each interval
