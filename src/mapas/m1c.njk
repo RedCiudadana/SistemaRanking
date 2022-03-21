@@ -45,111 +45,88 @@ permalink: "mapas/m1c/index.html"
 
 </head>
 <body id="kt_body" class="header-fixed header-mobile-fixed header-bottom-enabled page-loading">
-<div style="justify-content:center; align-items:center;display:flex">
-<div id="Mapa" class="w3-container tab border" style="width:780px">
-    
-    <div class="d-flex" style="margin-top:10px">
-        <div class="col-7">
-            <div style="height: 40px;align-items:center;display:flex"><h6 class="font-size-h42 font-size-h1-sm2 font-size-h4-lg2 font-size-h4-lg2 font-size-h1-xl2 mb-0  font-weight-bolder" style="margin:0">Gestión Ranking Municipal</h6></div>	
-        </div>
-        <div class="col-5">
-            <div style="height: 40px;justify-content:end;display:flex"><img style="margin-top:5px" src="/assets/ELEMENTOS/LOGOTIPO_RC.png"></div>
-        </div>
-    </div>
-
-    <div class="d-flex">
-        <div class="col-7">
-            <div><p style="margin:0;font-size:10px"> Net energy embedded in traded goods is the difference in energy embedded in exported goods, and imported goods.</p></div>	
-        </div>
-    </div>
-
-    <div id='map' style="height: 700px;"></div>
-</div>
-<div id="Datos" class="w3-container tab border" style="display:none;height: 780px;width:780px;overflow-y:scroll">
-    <div>
-        <br>											
-        <table id="tabla" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
-            <thead>
-                <tr >
-                    <th class="text-center">Municipio</th>
-                    <th class="text-center">Departamento</th>
-                    <th class="text-center">Porcentaje de Ranking Municipal (%)</th>
-                </tr>
-            </thead>
-            <tbody>
-            {% for item in collections.mapa1 %}
-            <tr >
-                <td class="tablecont text-center">{{item.data.mapa1.municipio}}</td>
-                <td class="tablecont text-center">{{item.data.mapa1.departamento}}</td>
-                <td class="tablecont text-center">{{item.data.mapa1.segeplan2018U}}</td>
-            </tr>
-            {% endfor %}
-            </tbody>
-        </table>
-        
-        <script src = "//cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js" defer ></script>
-
-        <script>
-            $(document).ready(function () {
-            $('#tabla').DataTable({
-                    "language":{
-                        "url":"//cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"
-                        
-                    },
-                    "responsive": true
-                });
-            $('.dataTables_length').addClass('bs-select');
-            });
-        </script>
-    </div>
-</div>
-<div id="Descargar" class=" tab border align-self-center" style="display:none;height: 780px;max-width:780px">
-    <img src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-12.png" width="100%">
-    <div style="padding:50px 25%;text-align:center">
-        <h2 style="font-weight:bold;font-size:2vw">Descarga los datos en el siguiente enlace </h2>
-
-        <div class="d-flex">
-            <div class="card text-center col-5 " style="background:#1aac8a;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important;height:100%">
-                <a class="link d-flex" style="margin:auto;align-items:center" href="/descargables/ranking_municipal.geojson" download="ranking_municipal.json" ><h4>Descargar archivo JSON</h4><img height="20px" width="20px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png"></a>	
-            </div>
-            <div class="card text-center col-5 " style="background:#1aac8a;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important;height:100%">
-                <a class="link d-flex" style="margin:auto;align-items:center" href="/descargables/ranking_municipal.csv" download="ranking_municipal.csv" ><h4>Descargar archivo CSV</h4><img height="20px" width="20px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png"></a>
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-<div id="Compartir" class="w3-container tab border" style="display:none;padding:100px 2%;height: 780px;width:780px"> 
-    <div style="max-height:100%;justify-content:center;align-items:center">
-        
-        <div style="text-align:center">
-            <img src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-13.png" >
-            <h2 style="font-weight:bold;font-size:2vw">Copie el siguiente código para compartir la gráfica </h2>
-
+    <div style="justify-content:center; align-items:center;display:flex">
+        <div id="Mapa" class="w3-container tab border" style="width:780px">
             
-            <div class="card text-center col-12 d-flex" style="background:#F3F6F9;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important">
-                Código URL:
-                <code>
-                &lt;embed src="https://sistemaranking.redciudadana.org/mapas/m1c" type="text/html" height="780px" width="780px" &gt;
-                </code>
+            <div class="d-flex" style="margin-top:10px">
+                <div class="col-7">
+                    <div style="height: 40px;align-items:center;display:flex"><h6 class="font-size-h42 font-size-h1-sm2 font-size-h4-lg2 font-size-h4-lg2 font-size-h1-xl2 mb-0  font-weight-bolder" style="margin:0">Gestión Ranking Municipal</h6></div>	
+                </div>
+                <div class="col-5">
+                    <div style="height: 40px;justify-content:end;display:flex"><img style="margin-top:5px" src="/assets/ELEMENTOS/LOGOTIPO_RC.png"></div>
+                </div>
             </div>
 
-            <br>
-            <div class="card text-center col-3 d-flex " style="background:#1aac8a;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important">
-                <a class="link d-flex text-white" style="margin:auto;align-items:center" href="javascript:copyToClipBoard()"  ><h4>Compartir</h4><img height="20px" width="20px" style="margin-left:4px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-06.png"></a>
+            <div class="d-flex">
+                <div class="col-7">
+                    <div><p style="margin:0;font-size:10px"> Net energy embedded in traded goods is the difference in energy embedded in exported goods, and imported goods.</p></div>	
+                </div>
+            </div>
+
+            <div id='map' style="height: 700px;"></div>
+        </div>
+        <div id="Datos" class="w3-container tab border" style="display:none;height: 780px;width:780px;overflow-y:scroll">
+            <div>
+                <br>											
+                <table id="tabla" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+                    <thead>
+                        <tr >
+                            <th class="text-center">Municipio</th>
+                            <th class="text-center">Departamento</th>
+                            <th class="text-center">Porcentaje de Ranking Municipal (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for item in collections.mapa1 %}
+                    <tr >
+                        <td class="tablecont text-center">{{item.data.mapa1.municipio}}</td>
+                        <td class="tablecont text-center">{{item.data.mapa1.departamento}}</td>
+                        <td class="tablecont text-center">{{item.data.mapa1.segeplan2018U}}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+                
+                <script src = "//cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js" defer ></script>
+
+                <script>
+                    $(document).ready(function () {
+                    $('#tabla').DataTable({
+                            "language":{
+                                "url":"//cdn.datatables.net/plug-ins/1.11.3/i18n/es_es.json"
+                                
+                            },
+                            "responsive": true
+                        });
+                    $('.dataTables_length').addClass('bs-select');
+                    });
+                </script>
+            </div>
+        </div>
+        <div id="Descargar" class=" tab border align-self-center" style="display:none;height: 780px;max-width:780px">
+            <img src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-12.png" width="100%">
+            <div style="padding:50px 25%;text-align:center">
+                <h2 style="font-weight:bold;font-size:2vw">Descarga los datos en el siguiente enlace </h2>
+
+                <div class="d-flex">
+                    <div class="card text-center col-5 " style="background:#1aac8a;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important;height:100%">
+                        <a class="link d-flex" style="margin:auto;align-items:center" href="/descargables/ranking_municipal.geojson" download="ranking_municipal.json" ><h4>Descargar archivo JSON</h4><img height="20px" width="20px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png"></a>	
+                    </div>
+                    <div class="card text-center col-5 " style="background:#1aac8a;margin:auto;padding:1rem 0;border: 1px solid #1aac8a!important;height:100%">
+                        <a class="link d-flex" style="margin:auto;align-items:center" href="/descargables/ranking_municipal.csv" download="ranking_municipal.csv" ><h4>Descargar archivo CSV</h4><img height="20px" width="20px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png"></a>
+                    </div>
+                </div>
+                
+                
             </div>
         </div>
     </div>
-</div>
-</div>
 
-<div style="display:flex;justify-content:space-around">
-    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Mapa')"><img height="20px" width="20px" style="margin-right:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-07.png">Mapa</button></div>
-    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Datos')"><img height="20px" width="20px" style="margin-right:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-08.png">Datos</button></div>
-    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Descargar')"><img height="20px" width="20px" style="margin-right:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png">Descargar</button></div>
-    <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Compartir')"><img height="20px" width="20px" style="margin-right:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-10.png">Compartir</button></div>
-</div>
+    <div style="display:flex;justify-content:space-around" height="20px">
+        <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Mapa')"><img height="20px" width="20px" style="margin-right:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-07.png">Mapa</button></div>
+        <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Datos')"><img height="20px" width="20px" style="margin-right:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-08.png">Datos</button></div>
+        <div class="col-lg-3 border" style="padding:0!important"><button class="w3-bar-item w3-button col-3 w-100 d-flex" style="max-width:100%;justify-content:center;align-items:center" onclick="openTab('Descargar')"><img height="20px" width="20px" style="margin-right:5px" src="/assets/ELEMENTOS/MAPA/ELEMENTOS/MAPAS_SR-09.png">Descargar</button></div>
+    </div>
 </div>
 <!--FUNCION PARA COPIAR AL TECLADO-->
 <script>
@@ -193,7 +170,7 @@ function openTab(cityName) {
 
 <script src="/layers/rankingm.js"></script>
 <script src="/layers/guatemala.js"></script>
-<script src="/assets/js/mapas/m1.js"></script>
+<script src="/assets/js/mapas/m1c.js"></script>
 
 
 </body>
